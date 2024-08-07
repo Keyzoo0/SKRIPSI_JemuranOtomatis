@@ -1,0 +1,3054 @@
+
+C:\Users\Ghassani\AppData\Local\Temp\arduino\sketches\06DF8D4DBF1B6B25FFC6D403DB6A69AA/tiramove.ino.elf:     file format elf32-avr
+
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+__vectors():
+   0:	0c 94 6a 00 	jmp	0xd4	; 0xd4 <__ctors_end>
+   4:	0c 94 92 00 	jmp	0x124	; 0x124 <__bad_interrupt>
+   8:	0c 94 92 00 	jmp	0x124	; 0x124 <__bad_interrupt>
+   c:	0c 94 92 00 	jmp	0x124	; 0x124 <__bad_interrupt>
+  10:	0c 94 92 00 	jmp	0x124	; 0x124 <__bad_interrupt>
+  14:	0c 94 92 00 	jmp	0x124	; 0x124 <__bad_interrupt>
+  18:	0c 94 92 00 	jmp	0x124	; 0x124 <__bad_interrupt>
+  1c:	0c 94 92 00 	jmp	0x124	; 0x124 <__bad_interrupt>
+  20:	0c 94 92 00 	jmp	0x124	; 0x124 <__bad_interrupt>
+  24:	0c 94 47 03 	jmp	0x68e	; 0x68e <__vector_9>
+  28:	0c 94 92 00 	jmp	0x124	; 0x124 <__bad_interrupt>
+  2c:	0c 94 92 00 	jmp	0x124	; 0x124 <__bad_interrupt>
+  30:	0c 94 92 00 	jmp	0x124	; 0x124 <__bad_interrupt>
+  34:	0c 94 92 00 	jmp	0x124	; 0x124 <__bad_interrupt>
+  38:	0c 94 92 00 	jmp	0x124	; 0x124 <__bad_interrupt>
+  3c:	0c 94 92 00 	jmp	0x124	; 0x124 <__bad_interrupt>
+  40:	0c 94 92 00 	jmp	0x124	; 0x124 <__bad_interrupt>
+  44:	0c 94 92 00 	jmp	0x124	; 0x124 <__bad_interrupt>
+  48:	0c 94 92 00 	jmp	0x124	; 0x124 <__bad_interrupt>
+  4c:	0c 94 92 00 	jmp	0x124	; 0x124 <__bad_interrupt>
+  50:	0c 94 92 00 	jmp	0x124	; 0x124 <__bad_interrupt>
+
+00000054 <__trampolines_end>:
+__trampolines_start():
+  54:	00 00       	nop
+  56:	3a 00       	.word	0x003a	; ????
+  58:	37 00       	.word	0x0037	; ????
+  5a:	34 00       	.word	0x0034	; ????
+  5c:	31 00       	.word	0x0031	; ????
+
+0000005e <port_to_output_PGM>:
+  5e:	00 00 3b 00 38 00 35 00 32 00                       ..;.8.5.2.
+
+00000068 <port_to_input_PGM>:
+  68:	00 00 39 00 36 00 33 00 30 00                       ..9.6.3.0.
+
+00000072 <digital_pin_to_port_PGM>:
+  72:	02 02 02 02 02 02 02 02 04 04 04 04 04 04 04 04     ................
+  82:	03 03 03 03 03 03 03 03 01 01 01 01 01 01 01 01     ................
+
+00000092 <digital_pin_to_bit_mask_PGM>:
+  92:	01 02 04 08 10 20 40 80 01 02 04 08 10 20 40 80     ..... @...... @.
+  a2:	01 02 04 08 10 20 40 80 01 02 04 08 10 20 40 80     ..... @...... @.
+
+000000b2 <digital_pin_to_timer_PGM>:
+  b2:	00 00 00 02 00 00 00 00 00 00 00 00 05 04 00 07     ................
+	...
+
+000000d2 <__ctors_start>:
+__ctors_start():
+  d2:	b9 04       	cpc	r11, r9
+
+000000d4 <__ctors_end>:
+__dtors_end():
+  d4:	11 24       	eor	r1, r1
+  d6:	1f be       	out	0x3f, r1	; 63
+  d8:	cf e5       	ldi	r28, 0x5F	; 95
+  da:	d4 e0       	ldi	r29, 0x04	; 4
+  dc:	de bf       	out	0x3e, r29	; 62
+  de:	cd bf       	out	0x3d, r28	; 61
+
+000000e0 <__do_copy_data>:
+__do_copy_data():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2409
+  e0:	10 e0       	ldi	r17, 0x00	; 0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2410
+  e2:	a0 e6       	ldi	r26, 0x60	; 96
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2411
+  e4:	b0 e0       	ldi	r27, 0x00	; 0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2412
+  e6:	e8 e2       	ldi	r30, 0x28	; 40
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2413
+  e8:	ff e0       	ldi	r31, 0x0F	; 15
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2414
+  ea:	02 c0       	rjmp	.+4      	; 0xf0 <__do_copy_data+0x10>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2417
+  ec:	05 90       	lpm	r0, Z+
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2422
+  ee:	0d 92       	st	X+, r0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2424
+  f0:	a8 3b       	cpi	r26, 0xB8	; 184
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2425
+  f2:	b1 07       	cpc	r27, r17
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2426
+  f4:	d9 f7       	brne	.-10     	; 0xec <__do_copy_data+0xc>
+
+000000f6 <__do_clear_bss>:
+__do_clear_bss():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2441
+  f6:	20 e0       	ldi	r18, 0x00	; 0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2442
+  f8:	a8 eb       	ldi	r26, 0xB8	; 184
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2443
+  fa:	b0 e0       	ldi	r27, 0x00	; 0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2444
+  fc:	01 c0       	rjmp	.+2      	; 0x100 <.do_clear_bss_start>
+
+000000fe <.do_clear_bss_loop>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2446
+  fe:	1d 92       	st	X+, r1
+
+00000100 <.do_clear_bss_start>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2448
+ 100:	a4 3e       	cpi	r26, 0xE4	; 228
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2449
+ 102:	b2 07       	cpc	r27, r18
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2450
+ 104:	e1 f7       	brne	.-8      	; 0xfe <.do_clear_bss_loop>
+
+00000106 <__do_global_ctors>:
+__do_global_ctors():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2466
+ 106:	10 e0       	ldi	r17, 0x00	; 0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2467
+ 108:	ca e6       	ldi	r28, 0x6A	; 106
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2468
+ 10a:	d0 e0       	ldi	r29, 0x00	; 0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2472
+ 10c:	04 c0       	rjmp	.+8      	; 0x116 <__do_global_ctors+0x10>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2474
+ 10e:	21 97       	sbiw	r28, 0x01	; 1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2480
+ 110:	fe 01       	movw	r30, r28
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2481
+ 112:	0e 94 8c 07 	call	0xf18	; 0xf18 <__tablejump2__>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2483
+ 116:	c9 36       	cpi	r28, 0x69	; 105
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2484
+ 118:	d1 07       	cpc	r29, r17
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2489
+ 11a:	c9 f7       	brne	.-14     	; 0x10e <__do_global_ctors+0x8>
+ 11c:	0e 94 91 03 	call	0x722	; 0x722 <main>
+ 120:	0c 94 92 07 	jmp	0xf24	; 0xf24 <_exit>
+
+00000124 <__bad_interrupt>:
+__vector_1():
+ 124:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+00000128 <printf_putchar(char, __file*)>:
+printf_putchar():
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/Print.cpp:204
+}
+
+// Custom implementation of printf borrowed from the teensy core files
+static int16_t printf_putchar(char c, FILE *fp)
+{
+  ((class Print *)(fdev_get_udata(fp)))->write((uint8_t)c);
+ 128:	fb 01       	movw	r30, r22
+ 12a:	a4 85       	ldd	r26, Z+12	; 0x0c
+ 12c:	b5 85       	ldd	r27, Z+13	; 0x0d
+ 12e:	ed 91       	ld	r30, X+
+ 130:	fc 91       	ld	r31, X
+ 132:	11 97       	sbiw	r26, 0x01	; 1
+ 134:	01 90       	ld	r0, Z+
+ 136:	f0 81       	ld	r31, Z
+ 138:	e0 2d       	mov	r30, r0
+ 13a:	68 2f       	mov	r22, r24
+ 13c:	cd 01       	movw	r24, r26
+ 13e:	09 95       	icall
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/Print.cpp:206
+  return 0;
+}
+ 140:	90 e0       	ldi	r25, 0x00	; 0
+ 142:	80 e0       	ldi	r24, 0x00	; 0
+ 144:	08 95       	ret
+
+00000146 <turnOffPWM>:
+turnOffPWM():
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:77
+//
+//static inline void turnOffPWM(uint8_t timer) __attribute__ ((always_inline));
+//static inline void turnOffPWM(uint8_t timer)
+static void turnOffPWM(uint8_t timer)
+{
+  switch (timer)
+ 146:	84 30       	cpi	r24, 0x04	; 4
+ 148:	59 f0       	breq	.+22     	; 0x160 <turnOffPWM+0x1a>
+ 14a:	28 f4       	brcc	.+10     	; 0x156 <turnOffPWM+0x10>
+ 14c:	81 30       	cpi	r24, 0x01	; 1
+ 14e:	99 f0       	breq	.+38     	; 0x176 <turnOffPWM+0x30>
+ 150:	82 30       	cpi	r24, 0x02	; 2
+ 152:	89 f0       	breq	.+34     	; 0x176 <turnOffPWM+0x30>
+ 154:	08 95       	ret
+ 156:	85 30       	cpi	r24, 0x05	; 5
+ 158:	39 f0       	breq	.+14     	; 0x168 <turnOffPWM+0x22>
+ 15a:	87 30       	cpi	r24, 0x07	; 7
+ 15c:	41 f0       	breq	.+16     	; 0x16e <turnOffPWM+0x28>
+ 15e:	08 95       	ret
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:82
+  {
+    // Timer1
+    #if defined(TCCR1A) && defined(COM1A1)
+      case TIMER1A:
+        TCCR1A &= ~_BV(COM1A1);
+ 160:	8f b5       	in	r24, 0x2f	; 47
+ 162:	8f 77       	andi	r24, 0x7F	; 127
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:87
+        break;
+    #endif
+    #if defined(TCCR1A) && defined(COM1B1)
+      case TIMER1B:
+        TCCR1A &= ~_BV(COM1B1);
+ 164:	8f bd       	out	0x2f, r24	; 47
+ 166:	08 95       	ret
+ 168:	8f b5       	in	r24, 0x2f	; 47
+ 16a:	8f 7d       	andi	r24, 0xDF	; 223
+ 16c:	fb cf       	rjmp	.-10     	; 0x164 <turnOffPWM+0x1e>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:99
+    #endif
+    
+    // Timer2
+    #if defined(TCCR2) && defined(COM21)
+      case TIMER2:
+        TCCR2 &= ~_BV(COM21);
+ 16e:	85 b5       	in	r24, 0x25	; 37
+ 170:	8f 7d       	andi	r24, 0xDF	; 223
+ 172:	85 bd       	out	0x25, r24	; 37
+ 174:	08 95       	ret
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:171
+    #if defined(TCCR0) && defined(COM01)
+      case TIMER0:
+        TCCR0 &= ~_BV(COM01);
+        break;
+      case TIMER0A:
+        TCCR0 &= ~_BV(COM01);
+ 176:	83 b7       	in	r24, 0x33	; 51
+ 178:	8f 7d       	andi	r24, 0xDF	; 223
+ 17a:	83 bf       	out	0x33, r24	; 51
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:185
+      case TIMER0B:
+        TCCR0A &= ~_BV(COM0B1);
+        break;
+    #endif
+  }
+}
+ 17c:	08 95       	ret
+
+0000017e <digitalRead>:
+digitalRead():
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:215
+
+  SREG = oldSREG;
+}
+
+int digitalRead(uint8_t pin)
+{
+ 17e:	cf 93       	push	r28
+ 180:	df 93       	push	r29
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:216
+  uint8_t timer = digitalPinToTimer(pin);
+ 182:	28 2f       	mov	r18, r24
+ 184:	30 e0       	ldi	r19, 0x00	; 0
+ 186:	f9 01       	movw	r30, r18
+ 188:	ee 54       	subi	r30, 0x4E	; 78
+ 18a:	ff 4f       	sbci	r31, 0xFF	; 255
+ 18c:	84 91       	lpm	r24, Z
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:217
+  uint8_t bit = digitalPinToBitMask(pin);
+ 18e:	f9 01       	movw	r30, r18
+ 190:	ee 56       	subi	r30, 0x6E	; 110
+ 192:	ff 4f       	sbci	r31, 0xFF	; 255
+ 194:	d4 91       	lpm	r29, Z
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:218
+  uint8_t port = digitalPinToPort(pin);
+ 196:	f9 01       	movw	r30, r18
+ 198:	ee 58       	subi	r30, 0x8E	; 142
+ 19a:	ff 4f       	sbci	r31, 0xFF	; 255
+ 19c:	c4 91       	lpm	r28, Z
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:220
+
+  if (port == NOT_A_PIN) return LOW;
+ 19e:	cc 23       	and	r28, r28
+ 1a0:	a1 f0       	breq	.+40     	; 0x1ca <digitalRead+0x4c>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:224
+
+  // If the pin that support PWM output, we need to turn it off
+  // before getting a digital reading.
+  if (timer != NOT_ON_TIMER) turnOffPWM(timer);
+ 1a2:	81 11       	cpse	r24, r1
+ 1a4:	0e 94 a3 00 	call	0x146	; 0x146 <turnOffPWM>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:226
+
+  if (*portInputRegister(port) & bit) return HIGH;
+ 1a8:	ec 2f       	mov	r30, r28
+ 1aa:	f0 e0       	ldi	r31, 0x00	; 0
+ 1ac:	ee 0f       	add	r30, r30
+ 1ae:	ff 1f       	adc	r31, r31
+ 1b0:	e8 59       	subi	r30, 0x98	; 152
+ 1b2:	ff 4f       	sbci	r31, 0xFF	; 255
+ 1b4:	a5 91       	lpm	r26, Z+
+ 1b6:	b4 91       	lpm	r27, Z
+ 1b8:	ec 91       	ld	r30, X
+ 1ba:	ed 23       	and	r30, r29
+ 1bc:	81 e0       	ldi	r24, 0x01	; 1
+ 1be:	90 e0       	ldi	r25, 0x00	; 0
+ 1c0:	09 f4       	brne	.+2      	; 0x1c4 <digitalRead+0x46>
+ 1c2:	80 e0       	ldi	r24, 0x00	; 0
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:228
+  return LOW;
+}
+ 1c4:	df 91       	pop	r29
+ 1c6:	cf 91       	pop	r28
+ 1c8:	08 95       	ret
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:220
+{
+  uint8_t timer = digitalPinToTimer(pin);
+  uint8_t bit = digitalPinToBitMask(pin);
+  uint8_t port = digitalPinToPort(pin);
+
+  if (port == NOT_A_PIN) return LOW;
+ 1ca:	80 e0       	ldi	r24, 0x00	; 0
+ 1cc:	90 e0       	ldi	r25, 0x00	; 0
+ 1ce:	fa cf       	rjmp	.-12     	; 0x1c4 <digitalRead+0x46>
+
+000001d0 <digitalWrite>:
+digitalWrite():
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:188
+    #endif
+  }
+}
+
+void digitalWrite(uint8_t pin, uint8_t val)
+{
+ 1d0:	1f 93       	push	r17
+ 1d2:	cf 93       	push	r28
+ 1d4:	df 93       	push	r29
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:189
+  uint8_t timer = digitalPinToTimer(pin);
+ 1d6:	28 2f       	mov	r18, r24
+ 1d8:	30 e0       	ldi	r19, 0x00	; 0
+ 1da:	f9 01       	movw	r30, r18
+ 1dc:	ee 54       	subi	r30, 0x4E	; 78
+ 1de:	ff 4f       	sbci	r31, 0xFF	; 255
+ 1e0:	84 91       	lpm	r24, Z
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:190
+  uint8_t bit = digitalPinToBitMask(pin);
+ 1e2:	f9 01       	movw	r30, r18
+ 1e4:	ee 56       	subi	r30, 0x6E	; 110
+ 1e6:	ff 4f       	sbci	r31, 0xFF	; 255
+ 1e8:	d4 91       	lpm	r29, Z
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:191
+  uint8_t port = digitalPinToPort(pin);
+ 1ea:	f9 01       	movw	r30, r18
+ 1ec:	ee 58       	subi	r30, 0x8E	; 142
+ 1ee:	ff 4f       	sbci	r31, 0xFF	; 255
+ 1f0:	c4 91       	lpm	r28, Z
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:194
+  volatile uint8_t *out;
+
+  if (port == NOT_A_PIN) return;
+ 1f2:	cc 23       	and	r28, r28
+ 1f4:	a9 f0       	breq	.+42     	; 0x220 <digitalWrite+0x50>
+ 1f6:	16 2f       	mov	r17, r22
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:198
+
+  // If the pin that support PWM output, we need to turn it off
+  // before doing a digital write.
+  if (timer != NOT_ON_TIMER) turnOffPWM(timer);
+ 1f8:	81 11       	cpse	r24, r1
+ 1fa:	0e 94 a3 00 	call	0x146	; 0x146 <turnOffPWM>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:200
+
+  out = portOutputRegister(port);
+ 1fe:	ec 2f       	mov	r30, r28
+ 200:	f0 e0       	ldi	r31, 0x00	; 0
+ 202:	ee 0f       	add	r30, r30
+ 204:	ff 1f       	adc	r31, r31
+ 206:	e2 5a       	subi	r30, 0xA2	; 162
+ 208:	ff 4f       	sbci	r31, 0xFF	; 255
+ 20a:	a5 91       	lpm	r26, Z+
+ 20c:	b4 91       	lpm	r27, Z
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:202
+
+  uint8_t oldSREG = SREG;
+ 20e:	8f b7       	in	r24, 0x3f	; 63
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:203
+  cli();
+ 210:	f8 94       	cli
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:206
+
+  if (val == LOW) {
+    *out &= ~bit;
+ 212:	ec 91       	ld	r30, X
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:205
+  out = portOutputRegister(port);
+
+  uint8_t oldSREG = SREG;
+  cli();
+
+  if (val == LOW) {
+ 214:	11 11       	cpse	r17, r1
+ 216:	08 c0       	rjmp	.+16     	; 0x228 <digitalWrite+0x58>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:206
+    *out &= ~bit;
+ 218:	d0 95       	com	r29
+ 21a:	de 23       	and	r29, r30
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:208
+  } else {
+    *out |= bit;
+ 21c:	dc 93       	st	X, r29
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:211
+  }
+
+  SREG = oldSREG;
+ 21e:	8f bf       	out	0x3f, r24	; 63
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:212
+}
+ 220:	df 91       	pop	r29
+ 222:	cf 91       	pop	r28
+ 224:	1f 91       	pop	r17
+ 226:	08 95       	ret
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:208
+  cli();
+
+  if (val == LOW) {
+    *out &= ~bit;
+  } else {
+    *out |= bit;
+ 228:	de 2b       	or	r29, r30
+ 22a:	f8 cf       	rjmp	.-16     	; 0x21c <digitalWrite+0x4c>
+
+0000022c <pinMode>:
+pinMode():
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:30
+#define ARDUINO_MAIN
+#include "wiring_private.h"
+#include "pins_arduino.h"
+
+void pinMode(uint8_t pin, uint8_t mode)
+{
+ 22c:	cf 93       	push	r28
+ 22e:	df 93       	push	r29
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:31
+  uint8_t bit = digitalPinToBitMask(pin);
+ 230:	90 e0       	ldi	r25, 0x00	; 0
+ 232:	fc 01       	movw	r30, r24
+ 234:	ee 56       	subi	r30, 0x6E	; 110
+ 236:	ff 4f       	sbci	r31, 0xFF	; 255
+ 238:	24 91       	lpm	r18, Z
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:32
+  uint8_t port = digitalPinToPort(pin);
+ 23a:	8e 58       	subi	r24, 0x8E	; 142
+ 23c:	9f 4f       	sbci	r25, 0xFF	; 255
+ 23e:	fc 01       	movw	r30, r24
+ 240:	84 91       	lpm	r24, Z
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:35
+  volatile uint8_t *reg, *out;
+
+  if (port == NOT_A_PIN) return;
+ 242:	88 23       	and	r24, r24
+ 244:	d1 f0       	breq	.+52     	; 0x27a <pinMode+0x4e>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:38
+
+  // JWS: can I let the optimizer do this?
+  reg = portModeRegister(port);
+ 246:	90 e0       	ldi	r25, 0x00	; 0
+ 248:	88 0f       	add	r24, r24
+ 24a:	99 1f       	adc	r25, r25
+ 24c:	fc 01       	movw	r30, r24
+ 24e:	ec 5a       	subi	r30, 0xAC	; 172
+ 250:	ff 4f       	sbci	r31, 0xFF	; 255
+ 252:	a5 91       	lpm	r26, Z+
+ 254:	b4 91       	lpm	r27, Z
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:39
+  out = portOutputRegister(port);
+ 256:	fc 01       	movw	r30, r24
+ 258:	e2 5a       	subi	r30, 0xA2	; 162
+ 25a:	ff 4f       	sbci	r31, 0xFF	; 255
+ 25c:	c5 91       	lpm	r28, Z+
+ 25e:	d4 91       	lpm	r29, Z
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:47
+    uint8_t oldSREG = SREG;
+    cli();
+    *reg &= ~bit;
+    *out &= ~bit;
+    SREG = oldSREG;
+  } else if (mode == INPUT_PULLUP) {
+ 260:	62 30       	cpi	r22, 0x02	; 2
+ 262:	71 f4       	brne	.+28     	; 0x280 <pinMode+0x54>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:48
+    uint8_t oldSREG = SREG;
+ 264:	9f b7       	in	r25, 0x3f	; 63
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:49
+    cli();
+ 266:	f8 94       	cli
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:50
+    *reg &= ~bit;
+ 268:	3c 91       	ld	r19, X
+ 26a:	82 2f       	mov	r24, r18
+ 26c:	80 95       	com	r24
+ 26e:	83 23       	and	r24, r19
+ 270:	8c 93       	st	X, r24
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:51
+    *out |= bit;
+ 272:	e8 81       	ld	r30, Y
+ 274:	2e 2b       	or	r18, r30
+ 276:	28 83       	st	Y, r18
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:52
+    SREG = oldSREG;
+ 278:	9f bf       	out	0x3f, r25	; 63
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:59
+    uint8_t oldSREG = SREG;
+    cli();
+    *reg |= bit;
+    SREG = oldSREG;
+  }
+}
+ 27a:	df 91       	pop	r29
+ 27c:	cf 91       	pop	r28
+ 27e:	08 95       	ret
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:54
+    cli();
+    *reg &= ~bit;
+    *out |= bit;
+    SREG = oldSREG;
+  } else {
+    uint8_t oldSREG = SREG;
+ 280:	8f b7       	in	r24, 0x3f	; 63
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:55
+    cli();
+ 282:	f8 94       	cli
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:56
+    *reg |= bit;
+ 284:	ec 91       	ld	r30, X
+ 286:	2e 2b       	or	r18, r30
+ 288:	2c 93       	st	X, r18
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_digital.c:57
+    SREG = oldSREG;
+ 28a:	8f bf       	out	0x3f, r24	; 63
+ 28c:	f6 cf       	rjmp	.-20     	; 0x27a <pinMode+0x4e>
+
+0000028e <delayMicroseconds>:
+delayMicroseconds():
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:619
+  us -= 7; // = 2 cycles
+
+#elif F_CPU >= 16000000L
+  // for a one-microsecond delay, simply return.  the overhead
+  // of the function call takes 14 (16) cycles, which is 1 us
+  if (us <= 1) return; //  = 3 cycles, (4 when true)
+ 28e:	81 30       	cpi	r24, 0x01	; 1
+ 290:	91 05       	cpc	r25, r1
+ 292:	39 f0       	breq	.+14     	; 0x2a2 <delayMicroseconds+0x14>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:624
+
+  // the following loop takes 1/4 of a microsecond (4 cycles)
+  // per iteration, so execute it four times for each microsecond of
+  // delay requested.
+  us <<= 2; // x4 us, = 4 cycles
+ 294:	88 0f       	add	r24, r24
+ 296:	99 1f       	adc	r25, r25
+ 298:	88 0f       	add	r24, r24
+ 29a:	99 1f       	adc	r25, r25
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:629
+
+  // account for the time taken in the preceeding commands.
+  // we just burned 19 (21) cycles above, remove 5, (5*4=20)
+  // to 2nd us is at least 8 so we can substract 5
+  us -= 5; // = 2 cycles,
+ 29c:	05 97       	sbiw	r24, 0x05	; 5
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:929
+  us >>= 2; // us div 4, = 4 cycles
+
+#endif
+
+  // busy wait
+  __asm__ __volatile__ (
+ 29e:	01 97       	sbiw	r24, 0x01	; 1
+ 2a0:	f1 f7       	brne	.-4      	; 0x29e <delayMicroseconds+0x10>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:939
+    "   brne 1b"                     // 2 cycles
+    : /* no outputs */
+    : "w" (us)
+  );
+  // return = 4 cycles
+}
+ 2a2:	08 95       	ret
+
+000002a4 <Print::write(unsigned char const*, unsigned int)>:
+write():
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/Print.cpp:35
+
+// Public Methods //////////////////////////////////////////////////////////////
+
+/* default implementation: may be overridden */
+size_t Print::write(const uint8_t *buffer, size_t size)
+{
+ 2a4:	af 92       	push	r10
+ 2a6:	bf 92       	push	r11
+ 2a8:	cf 92       	push	r12
+ 2aa:	df 92       	push	r13
+ 2ac:	ef 92       	push	r14
+ 2ae:	ff 92       	push	r15
+ 2b0:	0f 93       	push	r16
+ 2b2:	1f 93       	push	r17
+ 2b4:	cf 93       	push	r28
+ 2b6:	df 93       	push	r29
+ 2b8:	6c 01       	movw	r12, r24
+ 2ba:	7b 01       	movw	r14, r22
+ 2bc:	8b 01       	movw	r16, r22
+ 2be:	04 0f       	add	r16, r20
+ 2c0:	15 1f       	adc	r17, r21
+ 2c2:	eb 01       	movw	r28, r22
+ 2c4:	5e 01       	movw	r10, r28
+ 2c6:	ae 18       	sub	r10, r14
+ 2c8:	bf 08       	sbc	r11, r15
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/Print.cpp:37
+  size_t n = 0;
+  while (size--) {
+ 2ca:	c0 17       	cp	r28, r16
+ 2cc:	d1 07       	cpc	r29, r17
+ 2ce:	59 f0       	breq	.+22     	; 0x2e6 <Print::write(unsigned char const*, unsigned int)+0x42>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/Print.cpp:38
+    if (write(*buffer++)) n++;
+ 2d0:	69 91       	ld	r22, Y+
+ 2d2:	d6 01       	movw	r26, r12
+ 2d4:	ed 91       	ld	r30, X+
+ 2d6:	fc 91       	ld	r31, X
+ 2d8:	01 90       	ld	r0, Z+
+ 2da:	f0 81       	ld	r31, Z
+ 2dc:	e0 2d       	mov	r30, r0
+ 2de:	c6 01       	movw	r24, r12
+ 2e0:	09 95       	icall
+ 2e2:	89 2b       	or	r24, r25
+ 2e4:	79 f7       	brne	.-34     	; 0x2c4 <Print::write(unsigned char const*, unsigned int)+0x20>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/Print.cpp:42
+    else break;
+  }
+  return n;
+}
+ 2e6:	c5 01       	movw	r24, r10
+ 2e8:	df 91       	pop	r29
+ 2ea:	cf 91       	pop	r28
+ 2ec:	1f 91       	pop	r17
+ 2ee:	0f 91       	pop	r16
+ 2f0:	ff 90       	pop	r15
+ 2f2:	ef 90       	pop	r14
+ 2f4:	df 90       	pop	r13
+ 2f6:	cf 90       	pop	r12
+ 2f8:	bf 90       	pop	r11
+ 2fa:	af 90       	pop	r10
+ 2fc:	08 95       	ret
+
+000002fe <LiquidCrystal::pulseEnable()>:
+pulseEnable():
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:303
+    write4bits(value>>4);
+    write4bits(value);
+  }
+}
+
+void LiquidCrystal::pulseEnable(void) {
+ 2fe:	cf 93       	push	r28
+ 300:	df 93       	push	r29
+ 302:	ec 01       	movw	r28, r24
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:304
+  digitalWrite(_enable_pin, LOW);
+ 304:	60 e0       	ldi	r22, 0x00	; 0
+ 306:	8e 81       	ldd	r24, Y+6	; 0x06
+ 308:	0e 94 e8 00 	call	0x1d0	; 0x1d0 <digitalWrite>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:305
+  delayMicroseconds(1);    
+ 30c:	81 e0       	ldi	r24, 0x01	; 1
+ 30e:	90 e0       	ldi	r25, 0x00	; 0
+ 310:	0e 94 47 01 	call	0x28e	; 0x28e <delayMicroseconds>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:306
+  digitalWrite(_enable_pin, HIGH);
+ 314:	61 e0       	ldi	r22, 0x01	; 1
+ 316:	8e 81       	ldd	r24, Y+6	; 0x06
+ 318:	0e 94 e8 00 	call	0x1d0	; 0x1d0 <digitalWrite>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:307
+  delayMicroseconds(1);    // enable pulse must be >450ns
+ 31c:	81 e0       	ldi	r24, 0x01	; 1
+ 31e:	90 e0       	ldi	r25, 0x00	; 0
+ 320:	0e 94 47 01 	call	0x28e	; 0x28e <delayMicroseconds>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:308
+  digitalWrite(_enable_pin, LOW);
+ 324:	60 e0       	ldi	r22, 0x00	; 0
+ 326:	8e 81       	ldd	r24, Y+6	; 0x06
+ 328:	0e 94 e8 00 	call	0x1d0	; 0x1d0 <digitalWrite>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:309
+  delayMicroseconds(100);   // commands need > 37us to settle
+ 32c:	84 e6       	ldi	r24, 0x64	; 100
+ 32e:	90 e0       	ldi	r25, 0x00	; 0
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:310
+}
+ 330:	df 91       	pop	r29
+ 332:	cf 91       	pop	r28
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:309
+  digitalWrite(_enable_pin, LOW);
+  delayMicroseconds(1);    
+  digitalWrite(_enable_pin, HIGH);
+  delayMicroseconds(1);    // enable pulse must be >450ns
+  digitalWrite(_enable_pin, LOW);
+  delayMicroseconds(100);   // commands need > 37us to settle
+ 334:	0c 94 47 01 	jmp	0x28e	; 0x28e <delayMicroseconds>
+
+00000338 <LiquidCrystal::write4bits(unsigned char)>:
+write4bits():
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:312
+}
+
+void LiquidCrystal::write4bits(uint8_t value) {
+ 338:	cf 92       	push	r12
+ 33a:	df 92       	push	r13
+ 33c:	ef 92       	push	r14
+ 33e:	ff 92       	push	r15
+ 340:	0f 93       	push	r16
+ 342:	1f 93       	push	r17
+ 344:	cf 93       	push	r28
+ 346:	df 93       	push	r29
+ 348:	6c 01       	movw	r12, r24
+ 34a:	7c 01       	movw	r14, r24
+ 34c:	87 e0       	ldi	r24, 0x07	; 7
+ 34e:	e8 0e       	add	r14, r24
+ 350:	f1 1c       	adc	r15, r1
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:313
+  for (int i = 0; i < 4; i++) {
+ 352:	d0 e0       	ldi	r29, 0x00	; 0
+ 354:	c0 e0       	ldi	r28, 0x00	; 0
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:314
+    digitalWrite(_data_pins[i], (value >> i) & 0x01);
+ 356:	06 2f       	mov	r16, r22
+ 358:	10 e0       	ldi	r17, 0x00	; 0
+ 35a:	b8 01       	movw	r22, r16
+ 35c:	0c 2e       	mov	r0, r28
+ 35e:	02 c0       	rjmp	.+4      	; 0x364 <LiquidCrystal::write4bits(unsigned char)+0x2c>
+ 360:	75 95       	asr	r23
+ 362:	67 95       	ror	r22
+ 364:	0a 94       	dec	r0
+ 366:	e2 f7       	brpl	.-8      	; 0x360 <LiquidCrystal::write4bits(unsigned char)+0x28>
+ 368:	61 70       	andi	r22, 0x01	; 1
+ 36a:	f7 01       	movw	r30, r14
+ 36c:	81 91       	ld	r24, Z+
+ 36e:	7f 01       	movw	r14, r30
+ 370:	0e 94 e8 00 	call	0x1d0	; 0x1d0 <digitalWrite>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:313
+  digitalWrite(_enable_pin, LOW);
+  delayMicroseconds(100);   // commands need > 37us to settle
+}
+
+void LiquidCrystal::write4bits(uint8_t value) {
+  for (int i = 0; i < 4; i++) {
+ 374:	21 96       	adiw	r28, 0x01	; 1
+ 376:	c4 30       	cpi	r28, 0x04	; 4
+ 378:	d1 05       	cpc	r29, r1
+ 37a:	79 f7       	brne	.-34     	; 0x35a <LiquidCrystal::write4bits(unsigned char)+0x22>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:317
+    digitalWrite(_data_pins[i], (value >> i) & 0x01);
+  }
+
+  pulseEnable();
+ 37c:	c6 01       	movw	r24, r12
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:318
+}
+ 37e:	df 91       	pop	r29
+ 380:	cf 91       	pop	r28
+ 382:	1f 91       	pop	r17
+ 384:	0f 91       	pop	r16
+ 386:	ff 90       	pop	r15
+ 388:	ef 90       	pop	r14
+ 38a:	df 90       	pop	r13
+ 38c:	cf 90       	pop	r12
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:317
+void LiquidCrystal::write4bits(uint8_t value) {
+  for (int i = 0; i < 4; i++) {
+    digitalWrite(_data_pins[i], (value >> i) & 0x01);
+  }
+
+  pulseEnable();
+ 38e:	0c 94 7f 01 	jmp	0x2fe	; 0x2fe <LiquidCrystal::pulseEnable()>
+
+00000392 <LiquidCrystal::send(unsigned char, unsigned char)>:
+send():
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:287
+}
+
+/************ low level data pushing commands **********/
+
+// write either command or data, with automatic 4/8-bit selection
+void LiquidCrystal::send(uint8_t value, uint8_t mode) {
+ 392:	cf 92       	push	r12
+ 394:	df 92       	push	r13
+ 396:	ef 92       	push	r14
+ 398:	ff 92       	push	r15
+ 39a:	0f 93       	push	r16
+ 39c:	1f 93       	push	r17
+ 39e:	cf 93       	push	r28
+ 3a0:	df 93       	push	r29
+ 3a2:	ec 01       	movw	r28, r24
+ 3a4:	f6 2e       	mov	r15, r22
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:288
+  digitalWrite(_rs_pin, mode);
+ 3a6:	64 2f       	mov	r22, r20
+ 3a8:	8c 81       	ldd	r24, Y+4	; 0x04
+ 3aa:	0e 94 e8 00 	call	0x1d0	; 0x1d0 <digitalWrite>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:291
+
+  // if there is a RW pin indicated, set it low to Write
+  if (_rw_pin != 255) { 
+ 3ae:	8d 81       	ldd	r24, Y+5	; 0x05
+ 3b0:	8f 3f       	cpi	r24, 0xFF	; 255
+ 3b2:	19 f0       	breq	.+6      	; 0x3ba <LiquidCrystal::send(unsigned char, unsigned char)+0x28>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:292
+    digitalWrite(_rw_pin, LOW);
+ 3b4:	60 e0       	ldi	r22, 0x00	; 0
+ 3b6:	0e 94 e8 00 	call	0x1d0	; 0x1d0 <digitalWrite>
+ 3ba:	0f 2d       	mov	r16, r15
+ 3bc:	10 e0       	ldi	r17, 0x00	; 0
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:295
+  }
+  
+  if (_displayfunction & LCD_8BITMODE) {
+ 3be:	8f 85       	ldd	r24, Y+15	; 0x0f
+ 3c0:	84 ff       	sbrs	r24, 4
+ 3c2:	25 c0       	rjmp	.+74     	; 0x40e <__LOCK_REGION_LENGTH__+0xe>
+ 3c4:	6e 01       	movw	r12, r28
+ 3c6:	87 e0       	ldi	r24, 0x07	; 7
+ 3c8:	c8 0e       	add	r12, r24
+ 3ca:	d1 1c       	adc	r13, r1
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:321
+
+  pulseEnable();
+}
+
+void LiquidCrystal::write8bits(uint8_t value) {
+  for (int i = 0; i < 8; i++) {
+ 3cc:	f1 2c       	mov	r15, r1
+ 3ce:	e1 2c       	mov	r14, r1
+write8bits():
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:322
+    digitalWrite(_data_pins[i], (value >> i) & 0x01);
+ 3d0:	b8 01       	movw	r22, r16
+ 3d2:	0e 2c       	mov	r0, r14
+ 3d4:	02 c0       	rjmp	.+4      	; 0x3da <LiquidCrystal::send(unsigned char, unsigned char)+0x48>
+ 3d6:	75 95       	asr	r23
+ 3d8:	67 95       	ror	r22
+ 3da:	0a 94       	dec	r0
+ 3dc:	e2 f7       	brpl	.-8      	; 0x3d6 <LiquidCrystal::send(unsigned char, unsigned char)+0x44>
+ 3de:	61 70       	andi	r22, 0x01	; 1
+ 3e0:	f6 01       	movw	r30, r12
+ 3e2:	81 91       	ld	r24, Z+
+ 3e4:	6f 01       	movw	r12, r30
+ 3e6:	0e 94 e8 00 	call	0x1d0	; 0x1d0 <digitalWrite>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:321
+
+  pulseEnable();
+}
+
+void LiquidCrystal::write8bits(uint8_t value) {
+  for (int i = 0; i < 8; i++) {
+ 3ea:	ff ef       	ldi	r31, 0xFF	; 255
+ 3ec:	ef 1a       	sub	r14, r31
+ 3ee:	ff 0a       	sbc	r15, r31
+ 3f0:	88 e0       	ldi	r24, 0x08	; 8
+ 3f2:	e8 16       	cp	r14, r24
+ 3f4:	f1 04       	cpc	r15, r1
+ 3f6:	61 f7       	brne	.-40     	; 0x3d0 <LiquidCrystal::send(unsigned char, unsigned char)+0x3e>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:325
+    digitalWrite(_data_pins[i], (value >> i) & 0x01);
+  }
+  
+  pulseEnable();
+ 3f8:	ce 01       	movw	r24, r28
+send():
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:301
+    write8bits(value); 
+  } else {
+    write4bits(value>>4);
+    write4bits(value);
+  }
+}
+ 3fa:	df 91       	pop	r29
+ 3fc:	cf 91       	pop	r28
+ 3fe:	1f 91       	pop	r17
+ 400:	0f 91       	pop	r16
+ 402:	ff 90       	pop	r15
+ 404:	ef 90       	pop	r14
+ 406:	df 90       	pop	r13
+ 408:	cf 90       	pop	r12
+write8bits():
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:325
+void LiquidCrystal::write8bits(uint8_t value) {
+  for (int i = 0; i < 8; i++) {
+    digitalWrite(_data_pins[i], (value >> i) & 0x01);
+  }
+  
+  pulseEnable();
+ 40a:	0c 94 7f 01 	jmp	0x2fe	; 0x2fe <LiquidCrystal::pulseEnable()>
+send():
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:298
+  }
+  
+  if (_displayfunction & LCD_8BITMODE) {
+    write8bits(value); 
+  } else {
+    write4bits(value>>4);
+ 40e:	b8 01       	movw	r22, r16
+ 410:	84 e0       	ldi	r24, 0x04	; 4
+ 412:	75 95       	asr	r23
+ 414:	67 95       	ror	r22
+ 416:	8a 95       	dec	r24
+ 418:	e1 f7       	brne	.-8      	; 0x412 <__LOCK_REGION_LENGTH__+0x12>
+ 41a:	ce 01       	movw	r24, r28
+ 41c:	0e 94 9c 01 	call	0x338	; 0x338 <LiquidCrystal::write4bits(unsigned char)>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:299
+    write4bits(value);
+ 420:	6f 2d       	mov	r22, r15
+ 422:	ce 01       	movw	r24, r28
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:301
+  }
+}
+ 424:	df 91       	pop	r29
+ 426:	cf 91       	pop	r28
+ 428:	1f 91       	pop	r17
+ 42a:	0f 91       	pop	r16
+ 42c:	ff 90       	pop	r15
+ 42e:	ef 90       	pop	r14
+ 430:	df 90       	pop	r13
+ 432:	cf 90       	pop	r12
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:299
+  
+  if (_displayfunction & LCD_8BITMODE) {
+    write8bits(value); 
+  } else {
+    write4bits(value>>4);
+    write4bits(value);
+ 434:	0c 94 9c 01 	jmp	0x338	; 0x338 <LiquidCrystal::write4bits(unsigned char)>
+
+00000438 <LiquidCrystal::command(unsigned char) [clone .constprop.13]>:
+command():
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:276
+}
+
+/*********** mid level commands, for sending data/cmds */
+
+inline void LiquidCrystal::command(uint8_t value) {
+  send(value, LOW);
+ 438:	40 e0       	ldi	r20, 0x00	; 0
+ 43a:	68 2f       	mov	r22, r24
+ 43c:	8c ec       	ldi	r24, 0xCC	; 204
+ 43e:	90 e0       	ldi	r25, 0x00	; 0
+ 440:	0c 94 c9 01 	jmp	0x392	; 0x392 <LiquidCrystal::send(unsigned char, unsigned char)>
+
+00000444 <LiquidCrystal::begin(unsigned char, unsigned char, unsigned char) [clone .constprop.10]>:
+begin():
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:78
+    _displayfunction = LCD_8BITMODE | LCD_1LINE | LCD_5x8DOTS;
+  
+  begin(16, 1);  
+}
+
+void LiquidCrystal::begin(uint8_t cols, uint8_t lines, uint8_t dotsize) {
+ 444:	cf 93       	push	r28
+ 446:	df 93       	push	r29
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:79
+  if (lines > 1) {
+ 448:	82 30       	cpi	r24, 0x02	; 2
+ 44a:	29 f4       	brne	.+10     	; 0x456 <LiquidCrystal::begin(unsigned char, unsigned char, unsigned char) [clone .constprop.10]+0x12>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:80
+    _displayfunction |= LCD_2LINE;
+ 44c:	90 91 db 00 	lds	r25, 0x00DB	; 0x8000db <lcd+0xf>
+ 450:	98 60       	ori	r25, 0x08	; 8
+ 452:	90 93 db 00 	sts	0x00DB, r25	; 0x8000db <lcd+0xf>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:82
+  }
+  _numlines = lines;
+ 456:	80 93 df 00 	sts	0x00DF, r24	; 0x8000df <lcd+0x13>
+setRowOffsets():
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:169
+
+}
+
+void LiquidCrystal::setRowOffsets(int row0, int row1, int row2, int row3)
+{
+  _row_offsets[0] = row0;
+ 45a:	10 92 e0 00 	sts	0x00E0, r1	; 0x8000e0 <lcd+0x14>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:170
+  _row_offsets[1] = row1;
+ 45e:	80 e4       	ldi	r24, 0x40	; 64
+ 460:	80 93 e1 00 	sts	0x00E1, r24	; 0x8000e1 <lcd+0x15>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:171
+  _row_offsets[2] = row2;
+ 464:	80 e1       	ldi	r24, 0x10	; 16
+ 466:	80 93 e2 00 	sts	0x00E2, r24	; 0x8000e2 <lcd+0x16>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:172
+  _row_offsets[3] = row3;
+ 46a:	80 e5       	ldi	r24, 0x50	; 80
+ 46c:	80 93 e3 00 	sts	0x00E3, r24	; 0x8000e3 <lcd+0x17>
+begin():
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:91
+  // for some 1 line displays you can select a 10 pixel high font
+  if ((dotsize != LCD_5x8DOTS) && (lines == 1)) {
+    _displayfunction |= LCD_5x10DOTS;
+  }
+
+  pinMode(_rs_pin, OUTPUT);
+ 470:	61 e0       	ldi	r22, 0x01	; 1
+ 472:	80 91 d0 00 	lds	r24, 0x00D0	; 0x8000d0 <lcd+0x4>
+ 476:	0e 94 16 01 	call	0x22c	; 0x22c <pinMode>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:93
+  // we can save 1 pin by not using RW. Indicate by passing 255 instead of pin#
+  if (_rw_pin != 255) { 
+ 47a:	80 91 d1 00 	lds	r24, 0x00D1	; 0x8000d1 <lcd+0x5>
+ 47e:	8f 3f       	cpi	r24, 0xFF	; 255
+ 480:	19 f0       	breq	.+6      	; 0x488 <__stack+0x29>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:94
+    pinMode(_rw_pin, OUTPUT);
+ 482:	61 e0       	ldi	r22, 0x01	; 1
+ 484:	0e 94 16 01 	call	0x22c	; 0x22c <pinMode>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:96
+  }
+  pinMode(_enable_pin, OUTPUT);
+ 488:	61 e0       	ldi	r22, 0x01	; 1
+ 48a:	80 91 d2 00 	lds	r24, 0x00D2	; 0x8000d2 <lcd+0x6>
+ 48e:	0e 94 16 01 	call	0x22c	; 0x22c <pinMode>
+ 492:	cc ec       	ldi	r28, 0xCC	; 204
+ 494:	d0 e0       	ldi	r29, 0x00	; 0
+ 496:	9e 01       	movw	r18, r28
+ 498:	2c 5c       	subi	r18, 0xCC	; 204
+ 49a:	30 40       	sbci	r19, 0x00	; 0
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:99
+  
+  // Do these once, instead of every time a character is drawn for speed reasons.
+  for (int i=0; i<((_displayfunction & LCD_8BITMODE) ? 8 : 4); ++i)
+ 49c:	80 91 db 00 	lds	r24, 0x00DB	; 0x8000db <lcd+0xf>
+ 4a0:	84 fd       	sbrc	r24, 4
+ 4a2:	0b c0       	rjmp	.+22     	; 0x4ba <__stack+0x5b>
+ 4a4:	84 e0       	ldi	r24, 0x04	; 4
+ 4a6:	90 e0       	ldi	r25, 0x00	; 0
+ 4a8:	21 96       	adiw	r28, 0x01	; 1
+ 4aa:	28 17       	cp	r18, r24
+ 4ac:	39 07       	cpc	r19, r25
+ 4ae:	44 f4       	brge	.+16     	; 0x4c0 <__stack+0x61>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:101
+  {
+    pinMode(_data_pins[i], OUTPUT);
+ 4b0:	61 e0       	ldi	r22, 0x01	; 1
+ 4b2:	8e 81       	ldd	r24, Y+6	; 0x06
+ 4b4:	0e 94 16 01 	call	0x22c	; 0x22c <pinMode>
+ 4b8:	ee cf       	rjmp	.-36     	; 0x496 <__stack+0x37>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:99
+    pinMode(_rw_pin, OUTPUT);
+  }
+  pinMode(_enable_pin, OUTPUT);
+  
+  // Do these once, instead of every time a character is drawn for speed reasons.
+  for (int i=0; i<((_displayfunction & LCD_8BITMODE) ? 8 : 4); ++i)
+ 4ba:	88 e0       	ldi	r24, 0x08	; 8
+ 4bc:	90 e0       	ldi	r25, 0x00	; 0
+ 4be:	f4 cf       	rjmp	.-24     	; 0x4a8 <__stack+0x49>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:107
+   } 
+
+  // SEE PAGE 45/46 FOR INITIALIZATION SPECIFICATION!
+  // according to datasheet, we need at least 40ms after power rises above 2.7V
+  // before sending commands. Arduino can turn on way before 4.5V so we'll wait 50
+  delayMicroseconds(50000); 
+ 4c0:	80 e5       	ldi	r24, 0x50	; 80
+ 4c2:	93 ec       	ldi	r25, 0xC3	; 195
+ 4c4:	0e 94 47 01 	call	0x28e	; 0x28e <delayMicroseconds>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:109
+  // Now we pull both RS and R/W low to begin commands
+  digitalWrite(_rs_pin, LOW);
+ 4c8:	60 e0       	ldi	r22, 0x00	; 0
+ 4ca:	80 91 d0 00 	lds	r24, 0x00D0	; 0x8000d0 <lcd+0x4>
+ 4ce:	0e 94 e8 00 	call	0x1d0	; 0x1d0 <digitalWrite>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:110
+  digitalWrite(_enable_pin, LOW);
+ 4d2:	60 e0       	ldi	r22, 0x00	; 0
+ 4d4:	80 91 d2 00 	lds	r24, 0x00D2	; 0x8000d2 <lcd+0x6>
+ 4d8:	0e 94 e8 00 	call	0x1d0	; 0x1d0 <digitalWrite>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:111
+  if (_rw_pin != 255) { 
+ 4dc:	80 91 d1 00 	lds	r24, 0x00D1	; 0x8000d1 <lcd+0x5>
+ 4e0:	8f 3f       	cpi	r24, 0xFF	; 255
+ 4e2:	19 f0       	breq	.+6      	; 0x4ea <__stack+0x8b>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:112
+    digitalWrite(_rw_pin, LOW);
+ 4e4:	60 e0       	ldi	r22, 0x00	; 0
+ 4e6:	0e 94 e8 00 	call	0x1d0	; 0x1d0 <digitalWrite>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:116
+  }
+  
+  //put the LCD into 4 bit or 8 bit mode
+  if (! (_displayfunction & LCD_8BITMODE)) {
+ 4ea:	80 91 db 00 	lds	r24, 0x00DB	; 0x8000db <lcd+0xf>
+ 4ee:	84 fd       	sbrc	r24, 4
+ 4f0:	3a c0       	rjmp	.+116    	; 0x566 <__stack+0x107>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:121
+    // this is according to the hitachi HD44780 datasheet
+    // figure 24, pg 46
+
+    // we start in 8bit mode, try to set 4 bit mode
+    write4bits(0x03);
+ 4f2:	63 e0       	ldi	r22, 0x03	; 3
+ 4f4:	8c ec       	ldi	r24, 0xCC	; 204
+ 4f6:	90 e0       	ldi	r25, 0x00	; 0
+ 4f8:	0e 94 9c 01 	call	0x338	; 0x338 <LiquidCrystal::write4bits(unsigned char)>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:122
+    delayMicroseconds(4500); // wait min 4.1ms
+ 4fc:	84 e9       	ldi	r24, 0x94	; 148
+ 4fe:	91 e1       	ldi	r25, 0x11	; 17
+ 500:	0e 94 47 01 	call	0x28e	; 0x28e <delayMicroseconds>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:125
+
+    // second try
+    write4bits(0x03);
+ 504:	63 e0       	ldi	r22, 0x03	; 3
+ 506:	8c ec       	ldi	r24, 0xCC	; 204
+ 508:	90 e0       	ldi	r25, 0x00	; 0
+ 50a:	0e 94 9c 01 	call	0x338	; 0x338 <LiquidCrystal::write4bits(unsigned char)>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:126
+    delayMicroseconds(4500); // wait min 4.1ms
+ 50e:	84 e9       	ldi	r24, 0x94	; 148
+ 510:	91 e1       	ldi	r25, 0x11	; 17
+ 512:	0e 94 47 01 	call	0x28e	; 0x28e <delayMicroseconds>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:129
+    
+    // third go!
+    write4bits(0x03); 
+ 516:	63 e0       	ldi	r22, 0x03	; 3
+ 518:	8c ec       	ldi	r24, 0xCC	; 204
+ 51a:	90 e0       	ldi	r25, 0x00	; 0
+ 51c:	0e 94 9c 01 	call	0x338	; 0x338 <LiquidCrystal::write4bits(unsigned char)>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:130
+    delayMicroseconds(150);
+ 520:	86 e9       	ldi	r24, 0x96	; 150
+ 522:	90 e0       	ldi	r25, 0x00	; 0
+ 524:	0e 94 47 01 	call	0x28e	; 0x28e <delayMicroseconds>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:133
+
+    // finally, set to 4-bit interface
+    write4bits(0x02); 
+ 528:	62 e0       	ldi	r22, 0x02	; 2
+ 52a:	8c ec       	ldi	r24, 0xCC	; 204
+ 52c:	90 e0       	ldi	r25, 0x00	; 0
+ 52e:	0e 94 9c 01 	call	0x338	; 0x338 <LiquidCrystal::write4bits(unsigned char)>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:151
+    // third go
+    command(LCD_FUNCTIONSET | _displayfunction);
+  }
+
+  // finally, set # lines, font size, etc.
+  command(LCD_FUNCTIONSET | _displayfunction);  
+ 532:	80 91 db 00 	lds	r24, 0x00DB	; 0x8000db <lcd+0xf>
+ 536:	80 62       	ori	r24, 0x20	; 32
+ 538:	0e 94 1c 02 	call	0x438	; 0x438 <LiquidCrystal::command(unsigned char) [clone .constprop.13]>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:154
+
+  // turn the display on with no cursor or blinking default
+  _displaycontrol = LCD_DISPLAYON | LCD_CURSOROFF | LCD_BLINKOFF;  
+ 53c:	84 e0       	ldi	r24, 0x04	; 4
+ 53e:	80 93 dc 00 	sts	0x00DC, r24	; 0x8000dc <lcd+0x10>
+display():
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:208
+  _displaycontrol &= ~LCD_DISPLAYON;
+  command(LCD_DISPLAYCONTROL | _displaycontrol);
+}
+void LiquidCrystal::display() {
+  _displaycontrol |= LCD_DISPLAYON;
+  command(LCD_DISPLAYCONTROL | _displaycontrol);
+ 542:	8c e0       	ldi	r24, 0x0C	; 12
+ 544:	0e 94 1c 02 	call	0x438	; 0x438 <LiquidCrystal::command(unsigned char) [clone .constprop.13]>
+clear():
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:178
+}
+
+/********** high level commands, for the user! */
+void LiquidCrystal::clear()
+{
+  command(LCD_CLEARDISPLAY);  // clear display, set cursor position to zero
+ 548:	81 e0       	ldi	r24, 0x01	; 1
+ 54a:	0e 94 1c 02 	call	0x438	; 0x438 <LiquidCrystal::command(unsigned char) [clone .constprop.13]>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:179
+  delayMicroseconds(2000);  // this command takes a long time!
+ 54e:	80 ed       	ldi	r24, 0xD0	; 208
+ 550:	97 e0       	ldi	r25, 0x07	; 7
+ 552:	0e 94 47 01 	call	0x28e	; 0x28e <delayMicroseconds>
+begin():
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:161
+
+  // clear it off
+  clear();
+
+  // Initialize to default text direction (for romance languages)
+  _displaymode = LCD_ENTRYLEFT | LCD_ENTRYSHIFTDECREMENT;
+ 556:	82 e0       	ldi	r24, 0x02	; 2
+ 558:	80 93 dd 00 	sts	0x00DD, r24	; 0x8000dd <lcd+0x11>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:163
+  // set the entry mode
+  command(LCD_ENTRYMODESET | _displaymode);
+ 55c:	86 e0       	ldi	r24, 0x06	; 6
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:165
+
+}
+ 55e:	df 91       	pop	r29
+ 560:	cf 91       	pop	r28
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:163
+  clear();
+
+  // Initialize to default text direction (for romance languages)
+  _displaymode = LCD_ENTRYLEFT | LCD_ENTRYSHIFTDECREMENT;
+  // set the entry mode
+  command(LCD_ENTRYMODESET | _displaymode);
+ 562:	0c 94 1c 02 	jmp	0x438	; 0x438 <LiquidCrystal::command(unsigned char) [clone .constprop.13]>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:139
+  } else {
+    // this is according to the hitachi HD44780 datasheet
+    // page 45 figure 23
+
+    // Send function set command sequence
+    command(LCD_FUNCTIONSET | _displayfunction);
+ 566:	80 62       	ori	r24, 0x20	; 32
+ 568:	0e 94 1c 02 	call	0x438	; 0x438 <LiquidCrystal::command(unsigned char) [clone .constprop.13]>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:140
+    delayMicroseconds(4500);  // wait more than 4.1ms
+ 56c:	84 e9       	ldi	r24, 0x94	; 148
+ 56e:	91 e1       	ldi	r25, 0x11	; 17
+ 570:	0e 94 47 01 	call	0x28e	; 0x28e <delayMicroseconds>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:143
+
+    // second try
+    command(LCD_FUNCTIONSET | _displayfunction);
+ 574:	80 91 db 00 	lds	r24, 0x00DB	; 0x8000db <lcd+0xf>
+ 578:	80 62       	ori	r24, 0x20	; 32
+ 57a:	0e 94 1c 02 	call	0x438	; 0x438 <LiquidCrystal::command(unsigned char) [clone .constprop.13]>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:144
+    delayMicroseconds(150);
+ 57e:	86 e9       	ldi	r24, 0x96	; 150
+ 580:	90 e0       	ldi	r25, 0x00	; 0
+ 582:	0e 94 47 01 	call	0x28e	; 0x28e <delayMicroseconds>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:147
+
+    // third go
+    command(LCD_FUNCTIONSET | _displayfunction);
+ 586:	80 91 db 00 	lds	r24, 0x00DB	; 0x8000db <lcd+0xf>
+ 58a:	80 62       	ori	r24, 0x20	; 32
+ 58c:	0e 94 1c 02 	call	0x438	; 0x438 <LiquidCrystal::command(unsigned char) [clone .constprop.13]>
+ 590:	d0 cf       	rjmp	.-96     	; 0x532 <__stack+0xd3>
+
+00000592 <LiquidCrystal::setCursor(unsigned char, unsigned char) [clone .constprop.3]>:
+setCursor():
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:194
+{
+  const size_t max_lines = sizeof(_row_offsets) / sizeof(*_row_offsets);
+  if ( row >= max_lines ) {
+    row = max_lines - 1;    // we count rows starting w/0
+  }
+  if ( row >= _numlines ) {
+ 592:	90 91 df 00 	lds	r25, 0x00DF	; 0x8000df <lcd+0x13>
+ 596:	69 17       	cp	r22, r25
+ 598:	10 f0       	brcs	.+4      	; 0x59e <LiquidCrystal::setCursor(unsigned char, unsigned char) [clone .constprop.3]+0xc>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:195
+    row = _numlines - 1;    // we count rows starting w/0
+ 59a:	6f ef       	ldi	r22, 0xFF	; 255
+ 59c:	69 0f       	add	r22, r25
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:198
+  }
+  
+  command(LCD_SETDDRAMADDR | (col + _row_offsets[row]));
+ 59e:	e6 2f       	mov	r30, r22
+ 5a0:	f0 e0       	ldi	r31, 0x00	; 0
+ 5a2:	e4 53       	subi	r30, 0x34	; 52
+ 5a4:	ff 4f       	sbci	r31, 0xFF	; 255
+ 5a6:	94 89       	ldd	r25, Z+20	; 0x14
+ 5a8:	89 0f       	add	r24, r25
+ 5aa:	80 68       	ori	r24, 0x80	; 128
+ 5ac:	0c 94 1c 02 	jmp	0x438	; 0x438 <LiquidCrystal::command(unsigned char) [clone .constprop.13]>
+
+000005b0 <LiquidCrystal::write(unsigned char)>:
+write():
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:280
+inline void LiquidCrystal::command(uint8_t value) {
+  send(value, LOW);
+}
+
+inline size_t LiquidCrystal::write(uint8_t value) {
+  send(value, HIGH);
+ 5b0:	41 e0       	ldi	r20, 0x01	; 1
+ 5b2:	0e 94 c9 01 	call	0x392	; 0x392 <LiquidCrystal::send(unsigned char, unsigned char)>
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:282
+  return 1; // assume sucess
+}
+ 5b6:	81 e0       	ldi	r24, 0x01	; 1
+ 5b8:	90 e0       	ldi	r25, 0x00	; 0
+ 5ba:	08 95       	ret
+
+000005bc <Print::flush()>:
+flush():
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/Print.h:65
+
+    // default to zero, meaning "a single write may block"
+    // should be overriden by subclasses with buffering
+    virtual int availableForWrite() { return 0; }
+
+    virtual void flush() { /* Empty implementation for backward compatibility */ }
+ 5bc:	08 95       	ret
+
+000005be <Print::availableForWrite()>:
+availableForWrite():
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/Print.h:63
+      return write((const uint8_t *)buffer, size);
+    }
+
+    // default to zero, meaning "a single write may block"
+    // should be overriden by subclasses with buffering
+    virtual int availableForWrite() { return 0; }
+ 5be:	90 e0       	ldi	r25, 0x00	; 0
+ 5c0:	80 e0       	ldi	r24, 0x00	; 0
+ 5c2:	08 95       	ret
+
+000005c4 <Print::printf(char const*, ...) [clone .constprop.4]>:
+printf():
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/Print.cpp:208
+{
+  ((class Print *)(fdev_get_udata(fp)))->write((uint8_t)c);
+  return 0;
+}
+
+int16_t Print::printf(const char *format, ...)
+ 5c4:	cf 93       	push	r28
+ 5c6:	df 93       	push	r29
+ 5c8:	cd b7       	in	r28, 0x3d	; 61
+ 5ca:	de b7       	in	r29, 0x3e	; 62
+ 5cc:	2e 97       	sbiw	r28, 0x0e	; 14
+ 5ce:	0f b6       	in	r0, 0x3f	; 63
+ 5d0:	f8 94       	cli
+ 5d2:	de bf       	out	0x3e, r29	; 62
+ 5d4:	0f be       	out	0x3f, r0	; 63
+ 5d6:	cd bf       	out	0x3d, r28	; 61
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/Print.cpp:213
+{
+  FILE f;
+  va_list ap;
+
+  fdev_setup_stream(&f, printf_putchar, NULL, _FDEV_SETUP_WRITE);
+ 5d8:	84 e9       	ldi	r24, 0x94	; 148
+ 5da:	90 e0       	ldi	r25, 0x00	; 0
+ 5dc:	9a 87       	std	Y+10, r25	; 0x0a
+ 5de:	89 87       	std	Y+9, r24	; 0x09
+ 5e0:	1c 86       	std	Y+12, r1	; 0x0c
+ 5e2:	1b 86       	std	Y+11, r1	; 0x0b
+ 5e4:	82 e0       	ldi	r24, 0x02	; 2
+ 5e6:	8c 83       	std	Y+4, r24	; 0x04
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/Print.cpp:214
+  fdev_set_udata(&f, this);
+ 5e8:	8c ec       	ldi	r24, 0xCC	; 204
+ 5ea:	90 e0       	ldi	r25, 0x00	; 0
+ 5ec:	9e 87       	std	Y+14, r25	; 0x0e
+ 5ee:	8d 87       	std	Y+13, r24	; 0x0d
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/Print.cpp:216
+  va_start(ap, format);
+  return vfprintf(&f, format, ap);
+ 5f0:	ae 01       	movw	r20, r28
+ 5f2:	49 5e       	subi	r20, 0xE9	; 233
+ 5f4:	5f 4f       	sbci	r21, 0xFF	; 255
+ 5f6:	6d e6       	ldi	r22, 0x6D	; 109
+ 5f8:	70 e0       	ldi	r23, 0x00	; 0
+ 5fa:	ce 01       	movw	r24, r28
+ 5fc:	01 96       	adiw	r24, 0x01	; 1
+ 5fe:	0e 94 d7 04 	call	0x9ae	; 0x9ae <vfprintf>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/Print.cpp:217
+}
+ 602:	2e 96       	adiw	r28, 0x0e	; 14
+ 604:	0f b6       	in	r0, 0x3f	; 63
+ 606:	f8 94       	cli
+ 608:	de bf       	out	0x3e, r29	; 62
+ 60a:	0f be       	out	0x3f, r0	; 63
+ 60c:	cd bf       	out	0x3d, r28	; 61
+ 60e:	df 91       	pop	r29
+ 610:	cf 91       	pop	r28
+ 612:	08 95       	ret
+
+00000614 <Print::print(char const*) [clone .constprop.0]>:
+write():
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/Print.h:54
+    void clearWriteError() { setWriteError(0); }
+
+    virtual size_t write(uint8_t) = 0;
+    size_t write(const char *str) {
+      if (str == NULL) return 0;
+      return write((const uint8_t *)str, strlen(str));
+ 614:	fc 01       	movw	r30, r24
+ 616:	01 90       	ld	r0, Z+
+ 618:	00 20       	and	r0, r0
+ 61a:	e9 f7       	brne	.-6      	; 0x616 <Print::print(char const*) [clone .constprop.0]+0x2>
+ 61c:	31 97       	sbiw	r30, 0x01	; 1
+ 61e:	af 01       	movw	r20, r30
+ 620:	48 1b       	sub	r20, r24
+ 622:	59 0b       	sbc	r21, r25
+ 624:	bc 01       	movw	r22, r24
+ 626:	8c ec       	ldi	r24, 0xCC	; 204
+ 628:	90 e0       	ldi	r25, 0x00	; 0
+ 62a:	0c 94 52 01 	jmp	0x2a4	; 0x2a4 <Print::write(unsigned char const*, unsigned int)>
+
+0000062e <stopMotor()>:
+analogWrite():
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_analog.c:101
+  // We need to make sure the PWM output is enabled for those pins
+  // that support it, as we turn it off when digitally reading or
+  // writing with them.  Also, make sure the pin is in output mode
+  // for consistenty with Wiring, which doesn't require a pinMode
+  // call for the analog output pins.
+  pinMode(pin, OUTPUT);
+ 62e:	61 e0       	ldi	r22, 0x01	; 1
+ 630:	88 e0       	ldi	r24, 0x08	; 8
+ 632:	0e 94 16 01 	call	0x22c	; 0x22c <pinMode>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_analog.c:104
+  if (val == 0)
+  {
+    digitalWrite(pin, LOW);
+ 636:	60 e0       	ldi	r22, 0x00	; 0
+ 638:	88 e0       	ldi	r24, 0x08	; 8
+ 63a:	0e 94 e8 00 	call	0x1d0	; 0x1d0 <digitalWrite>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_analog.c:101
+  // We need to make sure the PWM output is enabled for those pins
+  // that support it, as we turn it off when digitally reading or
+  // writing with them.  Also, make sure the pin is in output mode
+  // for consistenty with Wiring, which doesn't require a pinMode
+  // call for the analog output pins.
+  pinMode(pin, OUTPUT);
+ 63e:	61 e0       	ldi	r22, 0x01	; 1
+ 640:	89 e0       	ldi	r24, 0x09	; 9
+ 642:	0e 94 16 01 	call	0x22c	; 0x22c <pinMode>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_analog.c:104
+  if (val == 0)
+  {
+    digitalWrite(pin, LOW);
+ 646:	60 e0       	ldi	r22, 0x00	; 0
+ 648:	89 e0       	ldi	r24, 0x09	; 9
+ 64a:	0c 94 e8 00 	jmp	0x1d0	; 0x1d0 <digitalWrite>
+
+0000064e <motorMundur()>:
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_analog.c:101
+  // We need to make sure the PWM output is enabled for those pins
+  // that support it, as we turn it off when digitally reading or
+  // writing with them.  Also, make sure the pin is in output mode
+  // for consistenty with Wiring, which doesn't require a pinMode
+  // call for the analog output pins.
+  pinMode(pin, OUTPUT);
+ 64e:	61 e0       	ldi	r22, 0x01	; 1
+ 650:	88 e0       	ldi	r24, 0x08	; 8
+ 652:	0e 94 16 01 	call	0x22c	; 0x22c <pinMode>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_analog.c:104
+  if (val == 0)
+  {
+    digitalWrite(pin, LOW);
+ 656:	60 e0       	ldi	r22, 0x00	; 0
+ 658:	88 e0       	ldi	r24, 0x08	; 8
+ 65a:	0e 94 e8 00 	call	0x1d0	; 0x1d0 <digitalWrite>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_analog.c:101
+  // We need to make sure the PWM output is enabled for those pins
+  // that support it, as we turn it off when digitally reading or
+  // writing with them.  Also, make sure the pin is in output mode
+  // for consistenty with Wiring, which doesn't require a pinMode
+  // call for the analog output pins.
+  pinMode(pin, OUTPUT);
+ 65e:	61 e0       	ldi	r22, 0x01	; 1
+ 660:	89 e0       	ldi	r24, 0x09	; 9
+ 662:	0e 94 16 01 	call	0x22c	; 0x22c <pinMode>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_analog.c:108
+  {
+    digitalWrite(pin, LOW);
+  }
+  else if (val == 255)
+  {
+    digitalWrite(pin, HIGH);
+ 666:	61 e0       	ldi	r22, 0x01	; 1
+ 668:	89 e0       	ldi	r24, 0x09	; 9
+ 66a:	0c 94 e8 00 	jmp	0x1d0	; 0x1d0 <digitalWrite>
+
+0000066e <motorMaju()>:
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_analog.c:101
+  // We need to make sure the PWM output is enabled for those pins
+  // that support it, as we turn it off when digitally reading or
+  // writing with them.  Also, make sure the pin is in output mode
+  // for consistenty with Wiring, which doesn't require a pinMode
+  // call for the analog output pins.
+  pinMode(pin, OUTPUT);
+ 66e:	61 e0       	ldi	r22, 0x01	; 1
+ 670:	88 e0       	ldi	r24, 0x08	; 8
+ 672:	0e 94 16 01 	call	0x22c	; 0x22c <pinMode>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_analog.c:108
+  {
+    digitalWrite(pin, LOW);
+  }
+  else if (val == 255)
+  {
+    digitalWrite(pin, HIGH);
+ 676:	61 e0       	ldi	r22, 0x01	; 1
+ 678:	88 e0       	ldi	r24, 0x08	; 8
+ 67a:	0e 94 e8 00 	call	0x1d0	; 0x1d0 <digitalWrite>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_analog.c:101
+  // We need to make sure the PWM output is enabled for those pins
+  // that support it, as we turn it off when digitally reading or
+  // writing with them.  Also, make sure the pin is in output mode
+  // for consistenty with Wiring, which doesn't require a pinMode
+  // call for the analog output pins.
+  pinMode(pin, OUTPUT);
+ 67e:	61 e0       	ldi	r22, 0x01	; 1
+ 680:	89 e0       	ldi	r24, 0x09	; 9
+ 682:	0e 94 16 01 	call	0x22c	; 0x22c <pinMode>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring_analog.c:104
+  if (val == 0)
+  {
+    digitalWrite(pin, LOW);
+ 686:	60 e0       	ldi	r22, 0x00	; 0
+ 688:	89 e0       	ldi	r24, 0x09	; 9
+ 68a:	0c 94 e8 00 	jmp	0x1d0	; 0x1d0 <digitalWrite>
+
+0000068e <__vector_9>:
+__vector_9():
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:159
+#if defined(__AVR_ATtiny24__) || defined(__AVR_ATtiny44__) || defined(__AVR_ATtiny84__)
+ISR(TIM0_OVF_vect)
+#else
+ISR(TIMER0_OVF_vect)
+#endif
+{
+ 68e:	1f 92       	push	r1
+ 690:	0f 92       	push	r0
+ 692:	0f b6       	in	r0, 0x3f	; 63
+ 694:	0f 92       	push	r0
+ 696:	11 24       	eor	r1, r1
+ 698:	2f 93       	push	r18
+ 69a:	3f 93       	push	r19
+ 69c:	8f 93       	push	r24
+ 69e:	9f 93       	push	r25
+ 6a0:	af 93       	push	r26
+ 6a2:	bf 93       	push	r27
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:167
+  static unsigned char timer0_exact = 0;
+#endif
+
+  // copy these to local variables so they can be stored in registers
+  // (volatile variables must be read from memory on every access, so this saves time)
+  unsigned long m = timer0_millis;
+ 6a4:	80 91 c8 00 	lds	r24, 0x00C8	; 0x8000c8 <timer0_millis>
+ 6a8:	90 91 c9 00 	lds	r25, 0x00C9	; 0x8000c9 <timer0_millis+0x1>
+ 6ac:	a0 91 ca 00 	lds	r26, 0x00CA	; 0x8000ca <timer0_millis+0x2>
+ 6b0:	b0 91 cb 00 	lds	r27, 0x00CB	; 0x8000cb <timer0_millis+0x3>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:168
+  unsigned char f = timer0_fract;
+ 6b4:	30 91 c7 00 	lds	r19, 0x00C7	; 0x8000c7 <timer0_fract>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:170
+
+  f += FRACT_INC FRACT_INC_PLUS;
+ 6b8:	23 e0       	ldi	r18, 0x03	; 3
+ 6ba:	23 0f       	add	r18, r19
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:200
+    ++f;
+  }
+#endif
+#endif // CORRECT_EXACT_MILLIS
+
+  if (f >= FRACT_MAX) {
+ 6bc:	2d 37       	cpi	r18, 0x7D	; 125
+ 6be:	68 f1       	brcs	.+90     	; 0x71a <__vector_9+0x8c>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:201
+    f -= FRACT_MAX;
+ 6c0:	26 e8       	ldi	r18, 0x86	; 134
+ 6c2:	23 0f       	add	r18, r19
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:202
+    m += MILLIS_INC + 1;
+ 6c4:	02 96       	adiw	r24, 0x02	; 2
+ 6c6:	a1 1d       	adc	r26, r1
+ 6c8:	b1 1d       	adc	r27, r1
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:208
+  }
+  else {
+    m += MILLIS_INC;
+  }
+
+  timer0_fract = f;
+ 6ca:	20 93 c7 00 	sts	0x00C7, r18	; 0x8000c7 <timer0_fract>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:209
+  timer0_millis = m;
+ 6ce:	80 93 c8 00 	sts	0x00C8, r24	; 0x8000c8 <timer0_millis>
+ 6d2:	90 93 c9 00 	sts	0x00C9, r25	; 0x8000c9 <timer0_millis+0x1>
+ 6d6:	a0 93 ca 00 	sts	0x00CA, r26	; 0x8000ca <timer0_millis+0x2>
+ 6da:	b0 93 cb 00 	sts	0x00CB, r27	; 0x8000cb <timer0_millis+0x3>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:211
+#ifndef CORRECT_EXACT_MICROS
+  timer0_overflow_count++;
+ 6de:	80 91 c3 00 	lds	r24, 0x00C3	; 0x8000c3 <timer0_overflow_count>
+ 6e2:	90 91 c4 00 	lds	r25, 0x00C4	; 0x8000c4 <timer0_overflow_count+0x1>
+ 6e6:	a0 91 c5 00 	lds	r26, 0x00C5	; 0x8000c5 <timer0_overflow_count+0x2>
+ 6ea:	b0 91 c6 00 	lds	r27, 0x00C6	; 0x8000c6 <timer0_overflow_count+0x3>
+ 6ee:	01 96       	adiw	r24, 0x01	; 1
+ 6f0:	a1 1d       	adc	r26, r1
+ 6f2:	b1 1d       	adc	r27, r1
+ 6f4:	80 93 c3 00 	sts	0x00C3, r24	; 0x8000c3 <timer0_overflow_count>
+ 6f8:	90 93 c4 00 	sts	0x00C4, r25	; 0x8000c4 <timer0_overflow_count+0x1>
+ 6fc:	a0 93 c5 00 	sts	0x00C5, r26	; 0x8000c5 <timer0_overflow_count+0x2>
+ 700:	b0 93 c6 00 	sts	0x00C6, r27	; 0x8000c6 <timer0_overflow_count+0x3>
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:213
+#endif
+}
+ 704:	bf 91       	pop	r27
+ 706:	af 91       	pop	r26
+ 708:	9f 91       	pop	r25
+ 70a:	8f 91       	pop	r24
+ 70c:	3f 91       	pop	r19
+ 70e:	2f 91       	pop	r18
+ 710:	0f 90       	pop	r0
+ 712:	0f be       	out	0x3f, r0	; 63
+ 714:	0f 90       	pop	r0
+ 716:	1f 90       	pop	r1
+ 718:	18 95       	reti
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:205
+  if (f >= FRACT_MAX) {
+    f -= FRACT_MAX;
+    m += MILLIS_INC + 1;
+  }
+  else {
+    m += MILLIS_INC;
+ 71a:	01 96       	adiw	r24, 0x01	; 1
+ 71c:	a1 1d       	adc	r26, r1
+ 71e:	b1 1d       	adc	r27, r1
+ 720:	d4 cf       	rjmp	.-88     	; 0x6ca <__vector_9+0x3c>
+
+00000722 <main>:
+init():
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:945
+
+void init()
+{
+  // this needs to be called before setup() or some functions won't
+  // work there
+  sei();
+ 722:	78 94       	sei
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:966
+#if defined(__AVR_ATmega64__) || defined(__AVR_ATmega128__)
+  // CPU specific: different values for the ATmega64/128
+  TCCR0 |= _BV(WGM01) | _BV(WGM00) | _BV(CS02);
+#elif defined(TCCR0) && defined(CS01) && defined(CS00)
+  // This combination is for the ATmega8535, ATmega8, ATmega16, ATmega32, ATmega8515, ATmega162
+  TCCR0 |= _BV(CS01) | _BV(CS00);
+ 724:	83 b7       	in	r24, 0x33	; 51
+ 726:	83 60       	ori	r24, 0x03	; 3
+ 728:	83 bf       	out	0x33, r24	; 51
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:968
+  #if defined(WGM00) && defined(WGM01) // The ATmega8 doesn't have WGM00 and WGM01
+    TCCR0 |= _BV(WGM01) | _BV(WGM00);
+ 72a:	83 b7       	in	r24, 0x33	; 51
+ 72c:	88 64       	ori	r24, 0x48	; 72
+ 72e:	83 bf       	out	0x33, r24	; 51
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:982
+  #error Timer 0 prescale factor 64 not set correctly
+#endif
+
+// Enable timer 0 overflow interrupt
+#if defined(TIMSK) && defined(TOIE0)
+  TIMSK |= _BV(TOIE0);
+ 730:	89 b7       	in	r24, 0x39	; 57
+ 732:	81 60       	ori	r24, 0x01	; 1
+ 734:	89 bf       	out	0x39, r24	; 57
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:995
+// this is better for motors as it ensures an even waveform
+// note, however, that fast pwm mode can achieve a frequency of up
+// 8 MHz (with a 16 MHz clock) at 50% duty cycle
+
+#if defined(TCCR1B) && defined(CS11) && defined(CS10)
+  TCCR1B = _BV(CS11); // Set timer 1 prescale factor to 64
+ 736:	82 e0       	ldi	r24, 0x02	; 2
+ 738:	8e bd       	out	0x2e, r24	; 46
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:997
+#if F_CPU >= 8000000L
+  TCCR1B |= _BV(CS10);
+ 73a:	8e b5       	in	r24, 0x2e	; 46
+ 73c:	81 60       	ori	r24, 0x01	; 1
+ 73e:	8e bd       	out	0x2e, r24	; 46
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:1006
+#if F_CPU >= 8000000L
+  TCCR1 |= _BV(CS10);
+#endif
+#endif
+#if defined(TCCR1A) && defined(WGM10)
+  TCCR1A |= _BV(WGM10); // Put timer 1 in 8-bit phase correct pwm mode
+ 740:	8f b5       	in	r24, 0x2f	; 47
+ 742:	81 60       	ori	r24, 0x01	; 1
+ 744:	8f bd       	out	0x2f, r24	; 47
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:1011
+#endif
+
+// Set timer 2 prescale factor to 64
+#if defined(TCCR2) && defined(CS22)
+  TCCR2 |= _BV(CS22);
+ 746:	85 b5       	in	r24, 0x25	; 37
+ 748:	84 60       	ori	r24, 0x04	; 4
+ 74a:	85 bd       	out	0x25, r24	; 37
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:1020
+  TCCR2A |= _BV(CS22);
+#endif
+
+// Configure timer 2 for phase correct pwm (8-bit)
+#if defined(TCCR2) && defined(WGM20)
+  TCCR2 |= _BV(WGM20);
+ 74c:	85 b5       	in	r24, 0x25	; 37
+ 74e:	80 64       	ori	r24, 0x40	; 64
+ 750:	85 bd       	out	0x25, r24	; 37
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:1050
+#endif
+
+#if defined(ADCSRA)
+  // set a2d prescaler so we are inside the desired 50-200 KHz range.
+  #if F_CPU >= 16000000 // 16 MHz / 128 = 125 KHz
+    ADCSRA = _BV(ADPS2) | _BV(ADPS1) | _BV(ADPS0) | _BV(ADEN);
+ 752:	87 e8       	ldi	r24, 0x87	; 135
+ 754:	86 b9       	out	0x06, r24	; 6
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/wiring.c:1068
+
+  // The bootloader connects pins 0 and 1 to the USART; disconnect them
+  // here so they can be used as normal digital i/o; they will be
+  // reconnected in Serial.begin()
+#if defined(UCSRB)
+  UCSRB = 0;
+ 756:	1a b8       	out	0x0a, r1	; 10
+setupLCD():
+D:\New folder\codingan\tiramove/lcd.ino:2
+void setupLCD(){
+  lcd.begin(16, 2);
+ 758:	82 e0       	ldi	r24, 0x02	; 2
+ 75a:	0e 94 22 02 	call	0x444	; 0x444 <LiquidCrystal::begin(unsigned char, unsigned char, unsigned char) [clone .constprop.10]>
+setupMotor():
+void setupMotor(){
+  pinMode(motorA , OUTPUT);
+ 75e:	61 e0       	ldi	r22, 0x01	; 1
+ 760:	88 e0       	ldi	r24, 0x08	; 8
+ 762:	0e 94 16 01 	call	0x22c	; 0x22c <pinMode>
+D:\New folder\codingan\tiramove/motor.ino:3
+  pinMode(motorB , OUTPUT);
+ 766:	61 e0       	ldi	r22, 0x01	; 1
+ 768:	89 e0       	ldi	r24, 0x09	; 9
+ 76a:	0e 94 16 01 	call	0x22c	; 0x22c <pinMode>
+D:\New folder\codingan\tiramove/motor.ino:4
+  pinMode(EN , OUTPUT);
+ 76e:	61 e0       	ldi	r22, 0x01	; 1
+ 770:	8f e0       	ldi	r24, 0x0F	; 15
+ 772:	0e 94 16 01 	call	0x22c	; 0x22c <pinMode>
+D:\New folder\codingan\tiramove/motor.ino:5
+  digitalWrite(EN,HIGH);
+ 776:	61 e0       	ldi	r22, 0x01	; 1
+ 778:	8f e0       	ldi	r24, 0x0F	; 15
+ 77a:	0e 94 e8 00 	call	0x1d0	; 0x1d0 <digitalWrite>
+setupButton():
+D:\New folder\codingan\tiramove/button.ino:2
+void setupButton(){
+    pinMode(pinLimitMaju,INPUT_PULLUP);
+ 77e:	62 e0       	ldi	r22, 0x02	; 2
+ 780:	8e e0       	ldi	r24, 0x0E	; 14
+ 782:	0e 94 16 01 	call	0x22c	; 0x22c <pinMode>
+D:\New folder\codingan\tiramove/button.ino:3
+    pinMode(pinLimitMundur,INPUT_PULLUP);
+ 786:	62 e0       	ldi	r22, 0x02	; 2
+ 788:	8d e0       	ldi	r24, 0x0D	; 13
+ 78a:	0e 94 16 01 	call	0x22c	; 0x22c <pinMode>
+D:\New folder\codingan\tiramove/button.ino:4
+    pinMode(pinSwitch,INPUT_PULLUP);
+ 78e:	62 e0       	ldi	r22, 0x02	; 2
+ 790:	8c e1       	ldi	r24, 0x1C	; 28
+ 792:	0e 94 16 01 	call	0x22c	; 0x22c <pinMode>
+D:\New folder\codingan\tiramove/button.ino:5
+    pinMode(pinBuka,INPUT_PULLUP);
+ 796:	62 e0       	ldi	r22, 0x02	; 2
+ 798:	8a e1       	ldi	r24, 0x1A	; 26
+ 79a:	0e 94 16 01 	call	0x22c	; 0x22c <pinMode>
+D:\New folder\codingan\tiramove/button.ino:6
+    pinMode(pinTutup,INPUT_PULLUP);
+ 79e:	62 e0       	ldi	r22, 0x02	; 2
+ 7a0:	8b e1       	ldi	r24, 0x1B	; 27
+ 7a2:	0e 94 16 01 	call	0x22c	; 0x22c <pinMode>
+displayADC():
+D:\New folder\codingan\tiramove/adc.ino:372
+ adc = analogReadPin(pinLDR);
+}
+
+void displayADC(){
+ lcd.setCursor(0 , 1);
+ lcd.printf("adc = %4d      " , adc);
+ 7a6:	cd e6       	ldi	r28, 0x6D	; 109
+ 7a8:	d0 e0       	ldi	r29, 0x00	; 0
+main():
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/main.cpp:47
+  
+  setup();
+    
+  for (;;) {
+    loop();
+    if (serialEventRun) serialEventRun();
+ 7aa:	00 e0       	ldi	r16, 0x00	; 0
+ 7ac:	10 e0       	ldi	r17, 0x00	; 0
+loopButton():
+D:\New folder\codingan\tiramove/button.ino:12
+    
+
+  }
+void loopButton(){
+  
+ buka = !digitalRead(pinBuka); 
+ 7ae:	8a e1       	ldi	r24, 0x1A	; 26
+ 7b0:	0e 94 bf 00 	call	0x17e	; 0x17e <digitalRead>
+ 7b4:	21 e0       	ldi	r18, 0x01	; 1
+ 7b6:	30 e0       	ldi	r19, 0x00	; 0
+ 7b8:	89 2b       	or	r24, r25
+ 7ba:	11 f0       	breq	.+4      	; 0x7c0 <main+0x9e>
+ 7bc:	30 e0       	ldi	r19, 0x00	; 0
+ 7be:	20 e0       	ldi	r18, 0x00	; 0
+ 7c0:	30 93 ba 00 	sts	0x00BA, r19	; 0x8000ba <buka+0x1>
+ 7c4:	20 93 b9 00 	sts	0x00B9, r18	; 0x8000b9 <buka>
+D:\New folder\codingan\tiramove/button.ino:13
+ tutup = !digitalRead(pinTutup); 
+ 7c8:	8b e1       	ldi	r24, 0x1B	; 27
+ 7ca:	0e 94 bf 00 	call	0x17e	; 0x17e <digitalRead>
+ 7ce:	21 e0       	ldi	r18, 0x01	; 1
+ 7d0:	89 2b       	or	r24, r25
+ 7d2:	09 f0       	breq	.+2      	; 0x7d6 <main+0xb4>
+ 7d4:	20 e0       	ldi	r18, 0x00	; 0
+ 7d6:	20 93 b8 00 	sts	0x00B8, r18	; 0x8000b8 <__data_end>
+D:\New folder\codingan\tiramove/button.ino:14
+ Switch = !digitalRead(pinSwitch); 
+ 7da:	8c e1       	ldi	r24, 0x1C	; 28
+ 7dc:	0e 94 bf 00 	call	0x17e	; 0x17e <digitalRead>
+ 7e0:	21 e0       	ldi	r18, 0x01	; 1
+ 7e2:	30 e0       	ldi	r19, 0x00	; 0
+ 7e4:	89 2b       	or	r24, r25
+ 7e6:	11 f0       	breq	.+4      	; 0x7ec <main+0xca>
+ 7e8:	30 e0       	ldi	r19, 0x00	; 0
+ 7ea:	20 e0       	ldi	r18, 0x00	; 0
+ 7ec:	30 93 c0 00 	sts	0x00C0, r19	; 0x8000c0 <Switch+0x1>
+ 7f0:	20 93 bf 00 	sts	0x00BF, r18	; 0x8000bf <Switch>
+D:\New folder\codingan\tiramove/button.ino:15
+ limitMaju = !digitalRead(pinLimitMaju); 
+ 7f4:	8e e0       	ldi	r24, 0x0E	; 14
+ 7f6:	0e 94 bf 00 	call	0x17e	; 0x17e <digitalRead>
+ 7fa:	21 e0       	ldi	r18, 0x01	; 1
+ 7fc:	30 e0       	ldi	r19, 0x00	; 0
+ 7fe:	89 2b       	or	r24, r25
+ 800:	11 f0       	breq	.+4      	; 0x806 <main+0xe4>
+ 802:	30 e0       	ldi	r19, 0x00	; 0
+ 804:	20 e0       	ldi	r18, 0x00	; 0
+ 806:	30 93 be 00 	sts	0x00BE, r19	; 0x8000be <limitMaju+0x1>
+ 80a:	20 93 bd 00 	sts	0x00BD, r18	; 0x8000bd <limitMaju>
+D:\New folder\codingan\tiramove/button.ino:16
+ limitMundur = !digitalRead(pinLimitMundur); 
+ 80e:	8d e0       	ldi	r24, 0x0D	; 13
+ 810:	0e 94 bf 00 	call	0x17e	; 0x17e <digitalRead>
+ 814:	21 e0       	ldi	r18, 0x01	; 1
+ 816:	30 e0       	ldi	r19, 0x00	; 0
+ 818:	89 2b       	or	r24, r25
+ 81a:	11 f0       	breq	.+4      	; 0x820 <main+0xfe>
+ 81c:	30 e0       	ldi	r19, 0x00	; 0
+ 81e:	20 e0       	ldi	r18, 0x00	; 0
+ 820:	30 93 bc 00 	sts	0x00BC, r19	; 0x8000bc <limitMundur+0x1>
+ 824:	20 93 bb 00 	sts	0x00BB, r18	; 0x8000bb <limitMundur>
+kontrol_tirai():
+D:\New folder\codingan\tiramove/motor.ino:25
+  analogWrite(motorA , 0);
+  analogWrite(motorB , 0);
+}
+
+void kontrol_tirai(){
+  lcd.setCursor(0, 0);
+ 828:	60 e0       	ldi	r22, 0x00	; 0
+ 82a:	80 e0       	ldi	r24, 0x00	; 0
+ 82c:	0e 94 c9 02 	call	0x592	; 0x592 <LiquidCrystal::setCursor(unsigned char, unsigned char) [clone .constprop.3]>
+write():
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/Print.h:54
+ 830:	47 e0       	ldi	r20, 0x07	; 7
+ 832:	50 e0       	ldi	r21, 0x00	; 0
+ 834:	6d e7       	ldi	r22, 0x7D	; 125
+ 836:	70 e0       	ldi	r23, 0x00	; 0
+ 838:	8c ec       	ldi	r24, 0xCC	; 204
+ 83a:	90 e0       	ldi	r25, 0x00	; 0
+ 83c:	0e 94 52 01 	call	0x2a4	; 0x2a4 <Print::write(unsigned char const*, unsigned int)>
+kontrol_tirai():
+D:\New folder\codingan\tiramove/motor.ino:28
+  lcd.print("Mode = ");
+   
+  if(Switch){
+ 840:	80 91 bf 00 	lds	r24, 0x00BF	; 0x8000bf <Switch>
+ 844:	90 91 c0 00 	lds	r25, 0x00C0	; 0x8000c0 <Switch+0x1>
+ 848:	89 2b       	or	r24, r25
+ 84a:	09 f4       	brne	.+2      	; 0x84e <main+0x12c>
+ 84c:	59 c0       	rjmp	.+178    	; 0x900 <main+0x1de>
+write():
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/Print.h:54
+ 84e:	48 e0       	ldi	r20, 0x08	; 8
+ 850:	50 e0       	ldi	r21, 0x00	; 0
+ 852:	65 e8       	ldi	r22, 0x85	; 133
+ 854:	70 e0       	ldi	r23, 0x00	; 0
+ 856:	8c ec       	ldi	r24, 0xCC	; 204
+ 858:	90 e0       	ldi	r25, 0x00	; 0
+ 85a:	0e 94 52 01 	call	0x2a4	; 0x2a4 <Print::write(unsigned char const*, unsigned int)>
+displayADC():
+D:\New folder\codingan\tiramove/adc.ino:371
+void readADC(){
+ adc = analogReadPin(pinLDR);
+}
+
+void displayADC(){
+ lcd.setCursor(0 , 1);
+ 85e:	61 e0       	ldi	r22, 0x01	; 1
+ 860:	80 e0       	ldi	r24, 0x00	; 0
+ 862:	0e 94 c9 02 	call	0x592	; 0x592 <LiquidCrystal::setCursor(unsigned char, unsigned char) [clone .constprop.3]>
+D:\New folder\codingan\tiramove/adc.ino:372
+ lcd.printf("adc = %4d      " , adc);
+ 866:	80 91 c2 00 	lds	r24, 0x00C2	; 0x8000c2 <adc+0x1>
+ 86a:	8f 93       	push	r24
+ 86c:	80 91 c1 00 	lds	r24, 0x00C1	; 0x8000c1 <adc>
+ 870:	8f 93       	push	r24
+ 872:	df 93       	push	r29
+ 874:	cf 93       	push	r28
+ 876:	8c ec       	ldi	r24, 0xCC	; 204
+ 878:	90 e0       	ldi	r25, 0x00	; 0
+ 87a:	9f 93       	push	r25
+ 87c:	8f 93       	push	r24
+ 87e:	0e 94 e2 02 	call	0x5c4	; 0x5c4 <Print::printf(char const*, ...) [clone .constprop.4]>
+kontrol_tirai():
+D:\New folder\codingan\tiramove/motor.ino:32
+  //otomatis
+    lcd.print("Otomatis");
+    displayADC(); 
+    if(adc > 500){
+ 882:	0f 90       	pop	r0
+ 884:	0f 90       	pop	r0
+ 886:	0f 90       	pop	r0
+ 888:	0f 90       	pop	r0
+ 88a:	0f 90       	pop	r0
+ 88c:	0f 90       	pop	r0
+ 88e:	80 91 c1 00 	lds	r24, 0x00C1	; 0x8000c1 <adc>
+ 892:	90 91 c2 00 	lds	r25, 0x00C2	; 0x8000c2 <adc+0x1>
+ 896:	85 3f       	cpi	r24, 0xF5	; 245
+ 898:	91 40       	sbci	r25, 0x01	; 1
+ 89a:	0c f4       	brge	.+2      	; 0x89e <main+0x17c>
+ 89c:	58 c0       	rjmp	.+176    	; 0x94e <main+0x22c>
+D:\New folder\codingan\tiramove/motor.ino:33
+      if(limitMaju)stopMotor();
+ 89e:	80 91 bd 00 	lds	r24, 0x00BD	; 0x8000bd <limitMaju>
+ 8a2:	90 91 be 00 	lds	r25, 0x00BE	; 0x8000be <limitMaju+0x1>
+ 8a6:	89 2b       	or	r24, r25
+ 8a8:	19 f0       	breq	.+6      	; 0x8b0 <main+0x18e>
+D:\New folder\codingan\tiramove/motor.ino:61
+      else motorMundur();
+    }else{
+      lcd.setCursor(8, 1);
+      lcd.print("Mati  ");
+
+      stopMotor();
+ 8aa:	0e 94 17 03 	call	0x62e	; 0x62e <stopMotor()>
+ 8ae:	02 c0       	rjmp	.+4      	; 0x8b4 <main+0x192>
+D:\New folder\codingan\tiramove/motor.ino:34
+  //otomatis
+    lcd.print("Otomatis");
+    displayADC(); 
+    if(adc > 500){
+      if(limitMaju)stopMotor();
+      else motorMaju();
+ 8b0:	0e 94 37 03 	call	0x66e	; 0x66e <motorMaju()>
+analogReadPin():
+D:\New folder\codingan\tiramove/adc.ino:235
+//################################################################################################################################################################################
+//===========================================================|   analogRead() Start	|=============================================================================================
+//################################################################################################################################################################################
+uint16_t analogReadPin(uint8_t channel)
+{	
+	if(ADC_SINGLE_INIT==1)
+ 8b4:	80 91 60 00 	lds	r24, 0x0060	; 0x800060 <__DATA_REGION_ORIGIN__>
+ 8b8:	81 30       	cpi	r24, 0x01	; 1
+ 8ba:	61 f4       	brne	.+24     	; 0x8d4 <main+0x1b2>
+ADC_INIT():
+D:\New folder\codingan\tiramove/adc.ino:70
+//	prescaler = 2,4,8,16,32,64,128
+//  Voltage_Reference = AREF,AVCC,INTERNAL,INTERNAL1v1,INTERNAL2v56
+
+void ADC_INIT(uint8_t prescaler, uint8_t Voltage_Reference)
+{
+	ADC_SINGLE_INIT=0; //when ADC_INIT() call by user so we dont need to again execute ADC_INIT() inside the analogRead()
+ 8bc:	10 92 60 00 	sts	0x0060, r1	; 0x800060 <__DATA_REGION_ORIGIN__>
+D:\New folder\codingan\tiramove/adc.ino:84
+		|| defined(__AVR_ATmega8__)\
+		|| defined(__AVR_ATmega48__) || defined(__AVR_ATmega48A__) || defined(__AVR_ATmega48P__) || defined(__AVR_ATmega48PA__) || defined(__AVR_ATmega48PB__)\
+		|| defined(__AVR_ATmega88__) || defined(__AVR_ATmega88A__) || defined(__AVR_ATmega88P__) || defined(__AVR_ATmega88PA__) || defined(__AVR_ATmega88PB__)\
+		|| defined(__AVR_ATmega168__) || defined(__AVR_ATmega168P__) || defined(__AVR_ATmega168A__) || defined(__AVR_ATmega168PA__) || defined(__AVR_ATmega168PB__)\
+		|| defined(__AVR_ATmega328__) || defined(__AVR_ATmega328P__)
+			ADCSRA |= (1<<ADEN); // ADC Enable
+ 8c0:	37 9a       	sbi	0x06, 7	; 6
+ADC_PRESCALER_SET():
+D:\New folder\codingan\tiramove/adc.ino:128
+		|| defined(__AVR_ATmega168__) || defined(__AVR_ATmega168P__) || defined(__AVR_ATmega168A__) || defined(__AVR_ATmega168PA__) || defined(__AVR_ATmega168PB__)\
+		|| defined(__AVR_ATmega328__) || defined(__AVR_ATmega328P__)\
+		|| defined(__AVR_ATtiny24__) || defined(__AVR_ATtiny24A__)\
+		|| defined(__AVR_ATtiny44__) || defined(__AVR_ATtiny44A__)\
+		|| defined(__AVR_ATtiny84__) || defined(__AVR_ATtiny84A__)
+			ADCSRA &= (~(1<<ADPS2)) & (~(1<<ADPS1)) & (~(1<<ADPS0)) ; // clear ADPS2:ADPS0 for initialization
+ 8c2:	86 b1       	in	r24, 0x06	; 6
+ 8c4:	88 7f       	andi	r24, 0xF8	; 248
+ 8c6:	86 b9       	out	0x06, r24	; 6
+D:\New folder\codingan\tiramove/adc.ino:146
+				break;
+				case 32:ADCSRA |= (1<<ADPS2) | (1<<ADPS0);//---------------------  1 0 1 --------------------- 32
+				break;
+				case 64:ADCSRA |= (1<<ADPS2) | (1<<ADPS1);//---------------------  1 1 0 --------------------- 64
+				break;
+				case 128:ADCSRA |= (1<<ADPS2) | (1<<ADPS1) | (1<<ADPS0);//-------  1 1 1 --------------------- 124
+ 8c8:	86 b1       	in	r24, 0x06	; 6
+ 8ca:	87 60       	ori	r24, 0x07	; 7
+ 8cc:	86 b9       	out	0x06, r24	; 6
+ADC_voltage_Reference():
+D:\New folder\codingan\tiramove/adc.ino:181
+			//ATmega32=2.56v           ATmega88=1.1v
+			//ATmega8535=2.56v         ATmega168=1.1v
+			//ATmega8=2.56v            ATmega328=1.1v
+			
+			if(Reference_Voltage==AREF){ADMUX &= (~(1<<REFS1)) & (~(1<<REFS0));}//------------------------ 0 0 -------- AREF
+			else if (Reference_Voltage==AVCC){ADMUX &= (~(1<<REFS1));ADMUX |= (1<<REFS0);}//-------------- 0 1 -------- AVCC
+ 8ce:	3f 98       	cbi	0x07, 7	; 7
+ 8d0:	3e 9a       	sbi	0x07, 6	; 7
+ADC_INIT():
+D:\New folder\codingan\tiramove/adc.ino:87
+		|| defined(__AVR_ATmega168__) || defined(__AVR_ATmega168P__) || defined(__AVR_ATmega168A__) || defined(__AVR_ATmega168PA__) || defined(__AVR_ATmega168PB__)\
+		|| defined(__AVR_ATmega328__) || defined(__AVR_ATmega328P__)
+			ADCSRA |= (1<<ADEN); // ADC Enable
+			ADC_PRESCALER_SET(prescaler); // set sampling frequency by prescaler bit
+			ADC_voltage_Reference(Voltage_Reference); //set voltage reference //by default AVCC has been selected
+			ADMUX &= ~(1<<ADLAR); //left adjust off // Though by default left adjust off // this line use for more convenient for future developer
+ 8d2:	3d 98       	cbi	0x07, 5	; 7
+analogReadPin():
+D:\New folder\codingan\tiramove/adc.ino:250
+		|| defined(__AVR_ATmega164__) || defined(__AVR_ATmega164A__) || defined(__AVR_ATmega164P__) || defined(__AVR_ATmega164PA__)\
+		|| defined(__AVR_ATmega324__) || defined(__AVR_ATmega324A__) || defined(__AVR_ATmega324P__) || defined(__AVR_ATmega324PA__)\
+		|| defined(__AVR_ATmega644__) || defined(__AVR_ATmega644A__) || defined(__AVR_ATmega644P__) || defined(__AVR_ATmega644PA__)\
+		|| defined(__AVR_ATmega1284__) || defined(__AVR_ATmega1284P__)\
+		|| defined(__AVR_ATmega8535__)
+			ADMUX &= (~(1<<MUX4)) & (~(1<<MUX3)) & (~(1<<MUX2)) & (~(1<<MUX1)) & (~(1<<MUX0)); // clear MUX4:MUX0 for initialization & set channel ADC0 default
+ 8d4:	87 b1       	in	r24, 0x07	; 7
+ 8d6:	80 7e       	andi	r24, 0xE0	; 224
+ 8d8:	87 b9       	out	0x07, r24	; 7
+D:\New folder\codingan\tiramove/adc.ino:269
+				break;
+				case 6:ADMUX |= (1<<MUX2) | (1<<MUX1);//-------------------------------------------------------------- 0 0 1 1 0
+				break;
+				case 7:ADMUX |= (1<<MUX2) | (1<<MUX1) | (1<<MUX0);//-------------------------------------------------- 0 0 1 1 1
+				break;
+				default:ADMUX &= (~(1<<MUX4)) & (~(1<<MUX3)) & (~(1<<MUX2)) & (~(1<<MUX1)) & (~(1<<MUX0)); // set channel ADC0 default
+ 8da:	87 b1       	in	r24, 0x07	; 7
+ 8dc:	80 7e       	andi	r24, 0xE0	; 224
+ 8de:	87 b9       	out	0x07, r24	; 7
+D:\New folder\codingan\tiramove/adc.ino:271
+			}
+			ADCSRA |=(1<<ADSC); // ADC conversion start
+ 8e0:	36 9a       	sbi	0x06, 6	; 6
+D:\New folder\codingan\tiramove/adc.ino:273
+	
+			while((ADCSRA & (1<<ADIF)) == 0){}; // wait for end conversion ( after conversion ADIF bit will be set automatically )
+ 8e2:	34 9b       	sbis	0x06, 4	; 6
+ 8e4:	fe cf       	rjmp	.-4      	; 0x8e2 <main+0x1c0>
+D:\New folder\codingan\tiramove/adc.ino:277
+			//uint8_t high,low;
+			//high=ADCH;
+			//low=ADCL;
+			return ADCW;// when conversion finished all data will be stored in ADCW
+ 8e6:	84 b1       	in	r24, 0x04	; 4
+ 8e8:	95 b1       	in	r25, 0x05	; 5
+readADC():
+D:\New folder\codingan\tiramove/adc.ino:367
+		#error "No processor type defined!"
+	#endif
+}
+
+void readADC(){
+ adc = analogReadPin(pinLDR);
+ 8ea:	90 93 c2 00 	sts	0x00C2, r25	; 0x8000c2 <adc+0x1>
+ 8ee:	80 93 c1 00 	sts	0x00C1, r24	; 0x8000c1 <adc>
+main():
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/main.cpp:47
+ 8f2:	01 15       	cp	r16, r1
+ 8f4:	11 05       	cpc	r17, r1
+ 8f6:	09 f4       	brne	.+2      	; 0x8fa <main+0x1d8>
+ 8f8:	5a cf       	rjmp	.-332    	; 0x7ae <main+0x8c>
+ 8fa:	0e 94 00 00 	call	0	; 0x0 <__vectors>
+ 8fe:	57 cf       	rjmp	.-338    	; 0x7ae <main+0x8c>
+kontrol_tirai():
+D:\New folder\codingan\tiramove/motor.ino:40
+    }else{
+      if(limitMundur)stopMotor();
+      else motorMundur();
+    }  
+  }else{
+    lcd.print("Manual  ");
+ 900:	8e e8       	ldi	r24, 0x8E	; 142
+ 902:	90 e0       	ldi	r25, 0x00	; 0
+ 904:	0e 94 0a 03 	call	0x614	; 0x614 <Print::print(char const*) [clone .constprop.0]>
+D:\New folder\codingan\tiramove/motor.ino:41
+    lcd.setCursor(0, 1);
+ 908:	61 e0       	ldi	r22, 0x01	; 1
+ 90a:	80 e0       	ldi	r24, 0x00	; 0
+ 90c:	0e 94 c9 02 	call	0x592	; 0x592 <LiquidCrystal::setCursor(unsigned char, unsigned char) [clone .constprop.3]>
+D:\New folder\codingan\tiramove/motor.ino:42
+    lcd.print("Posisi :");
+ 910:	87 e9       	ldi	r24, 0x97	; 151
+ 912:	90 e0       	ldi	r25, 0x00	; 0
+ 914:	0e 94 0a 03 	call	0x614	; 0x614 <Print::print(char const*) [clone .constprop.0]>
+D:\New folder\codingan\tiramove/motor.ino:44
+  //manual 
+    if(buka){
+ 918:	80 91 b9 00 	lds	r24, 0x00B9	; 0x8000b9 <buka>
+ 91c:	90 91 ba 00 	lds	r25, 0x00BA	; 0x8000ba <buka+0x1>
+ 920:	89 2b       	or	r24, r25
+ 922:	49 f0       	breq	.+18     	; 0x936 <main+0x214>
+D:\New folder\codingan\tiramove/motor.ino:45
+      lcd.setCursor(8, 1);
+ 924:	61 e0       	ldi	r22, 0x01	; 1
+ 926:	88 e0       	ldi	r24, 0x08	; 8
+ 928:	0e 94 c9 02 	call	0x592	; 0x592 <LiquidCrystal::setCursor(unsigned char, unsigned char) [clone .constprop.3]>
+D:\New folder\codingan\tiramove/motor.ino:46
+      lcd.print("Buka   ");
+ 92c:	80 ea       	ldi	r24, 0xA0	; 160
+ 92e:	90 e0       	ldi	r25, 0x00	; 0
+ 930:	0e 94 0a 03 	call	0x614	; 0x614 <Print::print(char const*) [clone .constprop.0]>
+ 934:	b4 cf       	rjmp	.-152    	; 0x89e <main+0x17c>
+D:\New folder\codingan\tiramove/motor.ino:51
+
+      if(limitMaju)stopMotor();
+      else motorMaju();
+    }
+    else if(tutup){
+ 936:	80 91 b8 00 	lds	r24, 0x00B8	; 0x8000b8 <__data_end>
+D:\New folder\codingan\tiramove/motor.ino:52
+      lcd.setCursor(8, 1);
+ 93a:	61 e0       	ldi	r22, 0x01	; 1
+D:\New folder\codingan\tiramove/motor.ino:51
+      lcd.print("Buka   ");
+
+      if(limitMaju)stopMotor();
+      else motorMaju();
+    }
+    else if(tutup){
+ 93c:	88 23       	and	r24, r24
+ 93e:	89 f0       	breq	.+34     	; 0x962 <main+0x240>
+D:\New folder\codingan\tiramove/motor.ino:52
+      lcd.setCursor(8, 1);
+ 940:	88 e0       	ldi	r24, 0x08	; 8
+ 942:	0e 94 c9 02 	call	0x592	; 0x592 <LiquidCrystal::setCursor(unsigned char, unsigned char) [clone .constprop.3]>
+D:\New folder\codingan\tiramove/motor.ino:53
+      lcd.print("Tutup  ");
+ 946:	88 ea       	ldi	r24, 0xA8	; 168
+ 948:	90 e0       	ldi	r25, 0x00	; 0
+ 94a:	0e 94 0a 03 	call	0x614	; 0x614 <Print::print(char const*) [clone .constprop.0]>
+D:\New folder\codingan\tiramove/motor.ino:55
+
+      if(limitMundur)stopMotor();
+ 94e:	80 91 bb 00 	lds	r24, 0x00BB	; 0x8000bb <limitMundur>
+ 952:	90 91 bc 00 	lds	r25, 0x00BC	; 0x8000bc <limitMundur+0x1>
+ 956:	89 2b       	or	r24, r25
+ 958:	09 f0       	breq	.+2      	; 0x95c <main+0x23a>
+ 95a:	a7 cf       	rjmp	.-178    	; 0x8aa <main+0x188>
+D:\New folder\codingan\tiramove/motor.ino:37
+    if(adc > 500){
+      if(limitMaju)stopMotor();
+      else motorMaju();
+    }else{
+      if(limitMundur)stopMotor();
+      else motorMundur();
+ 95c:	0e 94 27 03 	call	0x64e	; 0x64e <motorMundur()>
+ 960:	a9 cf       	rjmp	.-174    	; 0x8b4 <main+0x192>
+D:\New folder\codingan\tiramove/motor.ino:58
+      lcd.print("Tutup  ");
+
+      if(limitMundur)stopMotor();
+      else motorMundur();
+    }else{
+      lcd.setCursor(8, 1);
+ 962:	88 e0       	ldi	r24, 0x08	; 8
+ 964:	0e 94 c9 02 	call	0x592	; 0x592 <LiquidCrystal::setCursor(unsigned char, unsigned char) [clone .constprop.3]>
+D:\New folder\codingan\tiramove/motor.ino:59
+      lcd.print("Mati  ");
+ 968:	80 eb       	ldi	r24, 0xB0	; 176
+ 96a:	90 e0       	ldi	r25, 0x00	; 0
+ 96c:	0e 94 0a 03 	call	0x614	; 0x614 <Print::print(char const*) [clone .constprop.0]>
+ 970:	9c cf       	rjmp	.-200    	; 0x8aa <main+0x188>
+
+00000972 <_GLOBAL__sub_I_lcd>:
+_ZN5PrintC2Ev():
+C:\Users\Ghassani\AppData\Local\Arduino15\packages\MightyCore\hardware\avr\3.0.1\cores\MCUdude_corefiles/Print.h:46
+    size_t printNumber(unsigned long, uint8_t);
+    size_t printFloat(double, uint8_t);
+  protected:
+    void setWriteError(int err = 1) { write_error = err; }
+  public:
+    Print() : write_error(0) {}
+ 972:	ec ec       	ldi	r30, 0xCC	; 204
+ 974:	f0 e0       	ldi	r31, 0x00	; 0
+ 976:	13 82       	std	Z+3, r1	; 0x03
+ 978:	12 82       	std	Z+2, r1	; 0x02
+__base_ctor ():
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:42
+{
+  init(0, rs, 255, enable, d0, d1, d2, d3, d4, d5, d6, d7);
+}
+
+LiquidCrystal::LiquidCrystal(uint8_t rs, uint8_t rw, uint8_t enable,
+			     uint8_t d0, uint8_t d1, uint8_t d2, uint8_t d3)
+ 97a:	85 e6       	ldi	r24, 0x65	; 101
+ 97c:	90 e0       	ldi	r25, 0x00	; 0
+ 97e:	91 83       	std	Z+1, r25	; 0x01
+ 980:	80 83       	st	Z, r24
+init():
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:57
+
+void LiquidCrystal::init(uint8_t fourbitmode, uint8_t rs, uint8_t rw, uint8_t enable,
+			 uint8_t d0, uint8_t d1, uint8_t d2, uint8_t d3,
+			 uint8_t d4, uint8_t d5, uint8_t d6, uint8_t d7)
+{
+  _rs_pin = rs;
+ 982:	80 e1       	ldi	r24, 0x10	; 16
+ 984:	84 83       	std	Z+4, r24	; 0x04
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:58
+  _rw_pin = rw;
+ 986:	81 e1       	ldi	r24, 0x11	; 17
+ 988:	85 83       	std	Z+5, r24	; 0x05
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:59
+  _enable_pin = enable;
+ 98a:	82 e1       	ldi	r24, 0x12	; 18
+ 98c:	86 83       	std	Z+6, r24	; 0x06
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:61
+  
+  _data_pins[0] = d0;
+ 98e:	83 e1       	ldi	r24, 0x13	; 19
+ 990:	87 83       	std	Z+7, r24	; 0x07
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:62
+  _data_pins[1] = d1;
+ 992:	84 e1       	ldi	r24, 0x14	; 20
+ 994:	80 87       	std	Z+8, r24	; 0x08
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:63
+  _data_pins[2] = d2;
+ 996:	85 e1       	ldi	r24, 0x15	; 21
+ 998:	81 87       	std	Z+9, r24	; 0x09
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:64
+  _data_pins[3] = d3; 
+ 99a:	86 e1       	ldi	r24, 0x16	; 22
+ 99c:	82 87       	std	Z+10, r24	; 0x0a
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:65
+  _data_pins[4] = d4;
+ 99e:	13 86       	std	Z+11, r1	; 0x0b
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:66
+  _data_pins[5] = d5;
+ 9a0:	14 86       	std	Z+12, r1	; 0x0c
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:67
+  _data_pins[6] = d6;
+ 9a2:	15 86       	std	Z+13, r1	; 0x0d
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:68
+  _data_pins[7] = d7; 
+ 9a4:	16 86       	std	Z+14, r1	; 0x0e
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:71
+
+  if (fourbitmode)
+    _displayfunction = LCD_4BITMODE | LCD_1LINE | LCD_5x8DOTS;
+ 9a6:	17 86       	std	Z+15, r1	; 0x0f
+C:\Users\Ghassani\AppData\Local\Arduino15\libraries\LiquidCrystal\src/LiquidCrystal.cpp:75
+  else 
+    _displayfunction = LCD_8BITMODE | LCD_1LINE | LCD_5x8DOTS;
+  
+  begin(16, 1);  
+ 9a8:	81 e0       	ldi	r24, 0x01	; 1
+ 9aa:	0c 94 22 02 	jmp	0x444	; 0x444 <LiquidCrystal::begin(unsigned char, unsigned char, unsigned char) [clone .constprop.10]>
+
+000009ae <vfprintf>:
+vfprintf():
+ 9ae:	ab e0       	ldi	r26, 0x0B	; 11
+ 9b0:	b0 e0       	ldi	r27, 0x00	; 0
+ 9b2:	ed ed       	ldi	r30, 0xDD	; 221
+ 9b4:	f4 e0       	ldi	r31, 0x04	; 4
+ 9b6:	0c 94 55 07 	jmp	0xeaa	; 0xeaa <__prologue_saves__>
+ 9ba:	7c 01       	movw	r14, r24
+ 9bc:	3b 01       	movw	r6, r22
+ 9be:	8a 01       	movw	r16, r20
+ 9c0:	fc 01       	movw	r30, r24
+ 9c2:	17 82       	std	Z+7, r1	; 0x07
+ 9c4:	16 82       	std	Z+6, r1	; 0x06
+ 9c6:	83 81       	ldd	r24, Z+3	; 0x03
+ 9c8:	81 ff       	sbrs	r24, 1
+ 9ca:	c8 c1       	rjmp	.+912    	; 0xd5c <vfprintf+0x3ae>
+ 9cc:	ce 01       	movw	r24, r28
+ 9ce:	01 96       	adiw	r24, 0x01	; 1
+ 9d0:	5c 01       	movw	r10, r24
+ 9d2:	f7 01       	movw	r30, r14
+ 9d4:	93 81       	ldd	r25, Z+3	; 0x03
+ 9d6:	f3 01       	movw	r30, r6
+ 9d8:	93 fd       	sbrc	r25, 3
+ 9da:	85 91       	lpm	r24, Z+
+ 9dc:	93 ff       	sbrs	r25, 3
+ 9de:	81 91       	ld	r24, Z+
+ 9e0:	3f 01       	movw	r6, r30
+ 9e2:	88 23       	and	r24, r24
+ 9e4:	09 f4       	brne	.+2      	; 0x9e8 <vfprintf+0x3a>
+ 9e6:	53 c1       	rjmp	.+678    	; 0xc8e <vfprintf+0x2e0>
+ 9e8:	85 32       	cpi	r24, 0x25	; 37
+ 9ea:	39 f4       	brne	.+14     	; 0x9fa <vfprintf+0x4c>
+ 9ec:	93 fd       	sbrc	r25, 3
+ 9ee:	85 91       	lpm	r24, Z+
+ 9f0:	93 ff       	sbrs	r25, 3
+ 9f2:	81 91       	ld	r24, Z+
+ 9f4:	3f 01       	movw	r6, r30
+ 9f6:	85 32       	cpi	r24, 0x25	; 37
+ 9f8:	29 f4       	brne	.+10     	; 0xa04 <vfprintf+0x56>
+ 9fa:	b7 01       	movw	r22, r14
+ 9fc:	90 e0       	ldi	r25, 0x00	; 0
+ 9fe:	0e 94 c7 06 	call	0xd8e	; 0xd8e <fputc>
+ a02:	e7 cf       	rjmp	.-50     	; 0x9d2 <vfprintf+0x24>
+ a04:	91 2c       	mov	r9, r1
+ a06:	21 2c       	mov	r2, r1
+ a08:	31 2c       	mov	r3, r1
+ a0a:	ff e1       	ldi	r31, 0x1F	; 31
+ a0c:	f3 15       	cp	r31, r3
+ a0e:	38 f0       	brcs	.+14     	; 0xa1e <vfprintf+0x70>
+ a10:	8b 32       	cpi	r24, 0x2B	; 43
+ a12:	11 f1       	breq	.+68     	; 0xa58 <vfprintf+0xaa>
+ a14:	90 f4       	brcc	.+36     	; 0xa3a <vfprintf+0x8c>
+ a16:	80 32       	cpi	r24, 0x20	; 32
+ a18:	09 f1       	breq	.+66     	; 0xa5c <vfprintf+0xae>
+ a1a:	83 32       	cpi	r24, 0x23	; 35
+ a1c:	29 f1       	breq	.+74     	; 0xa68 <vfprintf+0xba>
+ a1e:	37 fc       	sbrc	r3, 7
+ a20:	3c c0       	rjmp	.+120    	; 0xa9a <vfprintf+0xec>
+ a22:	20 ed       	ldi	r18, 0xD0	; 208
+ a24:	28 0f       	add	r18, r24
+ a26:	2a 30       	cpi	r18, 0x0A	; 10
+ a28:	50 f5       	brcc	.+84     	; 0xa7e <vfprintf+0xd0>
+ a2a:	36 fe       	sbrs	r3, 6
+ a2c:	20 c0       	rjmp	.+64     	; 0xa6e <vfprintf+0xc0>
+ a2e:	8a e0       	ldi	r24, 0x0A	; 10
+ a30:	98 9e       	mul	r9, r24
+ a32:	20 0d       	add	r18, r0
+ a34:	11 24       	eor	r1, r1
+ a36:	92 2e       	mov	r9, r18
+ a38:	06 c0       	rjmp	.+12     	; 0xa46 <vfprintf+0x98>
+ a3a:	8d 32       	cpi	r24, 0x2D	; 45
+ a3c:	91 f0       	breq	.+36     	; 0xa62 <vfprintf+0xb4>
+ a3e:	80 33       	cpi	r24, 0x30	; 48
+ a40:	71 f7       	brne	.-36     	; 0xa1e <vfprintf+0x70>
+ a42:	68 94       	set
+ a44:	30 f8       	bld	r3, 0
+ a46:	f3 01       	movw	r30, r6
+ a48:	93 fd       	sbrc	r25, 3
+ a4a:	85 91       	lpm	r24, Z+
+ a4c:	93 ff       	sbrs	r25, 3
+ a4e:	81 91       	ld	r24, Z+
+ a50:	3f 01       	movw	r6, r30
+ a52:	81 11       	cpse	r24, r1
+ a54:	da cf       	rjmp	.-76     	; 0xa0a <vfprintf+0x5c>
+ a56:	21 c0       	rjmp	.+66     	; 0xa9a <vfprintf+0xec>
+ a58:	68 94       	set
+ a5a:	31 f8       	bld	r3, 1
+ a5c:	68 94       	set
+ a5e:	32 f8       	bld	r3, 2
+ a60:	f2 cf       	rjmp	.-28     	; 0xa46 <vfprintf+0x98>
+ a62:	68 94       	set
+ a64:	33 f8       	bld	r3, 3
+ a66:	ef cf       	rjmp	.-34     	; 0xa46 <vfprintf+0x98>
+ a68:	68 94       	set
+ a6a:	34 f8       	bld	r3, 4
+ a6c:	ec cf       	rjmp	.-40     	; 0xa46 <vfprintf+0x98>
+ a6e:	ea e0       	ldi	r30, 0x0A	; 10
+ a70:	2e 9e       	mul	r2, r30
+ a72:	20 0d       	add	r18, r0
+ a74:	11 24       	eor	r1, r1
+ a76:	22 2e       	mov	r2, r18
+ a78:	68 94       	set
+ a7a:	35 f8       	bld	r3, 5
+ a7c:	e4 cf       	rjmp	.-56     	; 0xa46 <vfprintf+0x98>
+ a7e:	8e 32       	cpi	r24, 0x2E	; 46
+ a80:	29 f4       	brne	.+10     	; 0xa8c <vfprintf+0xde>
+ a82:	36 fc       	sbrc	r3, 6
+ a84:	04 c1       	rjmp	.+520    	; 0xc8e <vfprintf+0x2e0>
+ a86:	68 94       	set
+ a88:	36 f8       	bld	r3, 6
+ a8a:	dd cf       	rjmp	.-70     	; 0xa46 <vfprintf+0x98>
+ a8c:	8c 36       	cpi	r24, 0x6C	; 108
+ a8e:	19 f4       	brne	.+6      	; 0xa96 <vfprintf+0xe8>
+ a90:	68 94       	set
+ a92:	37 f8       	bld	r3, 7
+ a94:	d8 cf       	rjmp	.-80     	; 0xa46 <vfprintf+0x98>
+ a96:	88 36       	cpi	r24, 0x68	; 104
+ a98:	b1 f2       	breq	.-84     	; 0xa46 <vfprintf+0x98>
+ a9a:	98 2f       	mov	r25, r24
+ a9c:	9f 7d       	andi	r25, 0xDF	; 223
+ a9e:	95 54       	subi	r25, 0x45	; 69
+ aa0:	93 30       	cpi	r25, 0x03	; 3
+ aa2:	e0 f0       	brcs	.+56     	; 0xadc <vfprintf+0x12e>
+ aa4:	83 36       	cpi	r24, 0x63	; 99
+ aa6:	a1 f1       	breq	.+104    	; 0xb10 <vfprintf+0x162>
+ aa8:	83 37       	cpi	r24, 0x73	; 115
+ aaa:	c1 f1       	breq	.+112    	; 0xb1c <vfprintf+0x16e>
+ aac:	83 35       	cpi	r24, 0x53	; 83
+ aae:	09 f0       	breq	.+2      	; 0xab2 <vfprintf+0x104>
+ ab0:	63 c0       	rjmp	.+198    	; 0xb78 <vfprintf+0x1ca>
+ ab2:	28 01       	movw	r4, r16
+ ab4:	f2 e0       	ldi	r31, 0x02	; 2
+ ab6:	4f 0e       	add	r4, r31
+ ab8:	51 1c       	adc	r5, r1
+ aba:	f8 01       	movw	r30, r16
+ abc:	c0 80       	ld	r12, Z
+ abe:	d1 80       	ldd	r13, Z+1	; 0x01
+ ac0:	69 2d       	mov	r22, r9
+ ac2:	70 e0       	ldi	r23, 0x00	; 0
+ ac4:	36 fc       	sbrc	r3, 6
+ ac6:	02 c0       	rjmp	.+4      	; 0xacc <vfprintf+0x11e>
+ ac8:	6f ef       	ldi	r22, 0xFF	; 255
+ aca:	7f ef       	ldi	r23, 0xFF	; 255
+ acc:	c6 01       	movw	r24, r12
+ ace:	0e 94 b1 06 	call	0xd62	; 0xd62 <strnlen_P>
+ ad2:	4c 01       	movw	r8, r24
+ ad4:	68 94       	set
+ ad6:	37 f8       	bld	r3, 7
+ ad8:	82 01       	movw	r16, r4
+ ada:	0a c0       	rjmp	.+20     	; 0xaf0 <vfprintf+0x142>
+ adc:	0c 5f       	subi	r16, 0xFC	; 252
+ ade:	1f 4f       	sbci	r17, 0xFF	; 255
+ ae0:	ff e3       	ldi	r31, 0x3F	; 63
+ ae2:	f9 83       	std	Y+1, r31	; 0x01
+ ae4:	88 24       	eor	r8, r8
+ ae6:	83 94       	inc	r8
+ ae8:	91 2c       	mov	r9, r1
+ aea:	65 01       	movw	r12, r10
+ aec:	e8 94       	clt
+ aee:	37 f8       	bld	r3, 7
+ af0:	33 fe       	sbrs	r3, 3
+ af2:	2d c0       	rjmp	.+90     	; 0xb4e <vfprintf+0x1a0>
+ af4:	52 2c       	mov	r5, r2
+ af6:	81 14       	cp	r8, r1
+ af8:	91 04       	cpc	r9, r1
+ afa:	71 f5       	brne	.+92     	; 0xb58 <vfprintf+0x1aa>
+ afc:	55 20       	and	r5, r5
+ afe:	09 f4       	brne	.+2      	; 0xb02 <vfprintf+0x154>
+ b00:	68 cf       	rjmp	.-304    	; 0x9d2 <vfprintf+0x24>
+ b02:	b7 01       	movw	r22, r14
+ b04:	80 e2       	ldi	r24, 0x20	; 32
+ b06:	90 e0       	ldi	r25, 0x00	; 0
+ b08:	0e 94 c7 06 	call	0xd8e	; 0xd8e <fputc>
+ b0c:	5a 94       	dec	r5
+ b0e:	f6 cf       	rjmp	.-20     	; 0xafc <vfprintf+0x14e>
+ b10:	f8 01       	movw	r30, r16
+ b12:	80 81       	ld	r24, Z
+ b14:	89 83       	std	Y+1, r24	; 0x01
+ b16:	0e 5f       	subi	r16, 0xFE	; 254
+ b18:	1f 4f       	sbci	r17, 0xFF	; 255
+ b1a:	e4 cf       	rjmp	.-56     	; 0xae4 <vfprintf+0x136>
+ b1c:	28 01       	movw	r4, r16
+ b1e:	f2 e0       	ldi	r31, 0x02	; 2
+ b20:	4f 0e       	add	r4, r31
+ b22:	51 1c       	adc	r5, r1
+ b24:	f8 01       	movw	r30, r16
+ b26:	c0 80       	ld	r12, Z
+ b28:	d1 80       	ldd	r13, Z+1	; 0x01
+ b2a:	69 2d       	mov	r22, r9
+ b2c:	70 e0       	ldi	r23, 0x00	; 0
+ b2e:	36 fc       	sbrc	r3, 6
+ b30:	02 c0       	rjmp	.+4      	; 0xb36 <vfprintf+0x188>
+ b32:	6f ef       	ldi	r22, 0xFF	; 255
+ b34:	7f ef       	ldi	r23, 0xFF	; 255
+ b36:	c6 01       	movw	r24, r12
+ b38:	0e 94 bc 06 	call	0xd78	; 0xd78 <strnlen>
+ b3c:	4c 01       	movw	r8, r24
+ b3e:	82 01       	movw	r16, r4
+ b40:	d5 cf       	rjmp	.-86     	; 0xaec <vfprintf+0x13e>
+ b42:	b7 01       	movw	r22, r14
+ b44:	80 e2       	ldi	r24, 0x20	; 32
+ b46:	90 e0       	ldi	r25, 0x00	; 0
+ b48:	0e 94 c7 06 	call	0xd8e	; 0xd8e <fputc>
+ b4c:	2a 94       	dec	r2
+ b4e:	28 14       	cp	r2, r8
+ b50:	19 04       	cpc	r1, r9
+ b52:	09 f0       	breq	.+2      	; 0xb56 <vfprintf+0x1a8>
+ b54:	b0 f7       	brcc	.-20     	; 0xb42 <vfprintf+0x194>
+ b56:	ce cf       	rjmp	.-100    	; 0xaf4 <vfprintf+0x146>
+ b58:	f6 01       	movw	r30, r12
+ b5a:	37 fc       	sbrc	r3, 7
+ b5c:	85 91       	lpm	r24, Z+
+ b5e:	37 fe       	sbrs	r3, 7
+ b60:	81 91       	ld	r24, Z+
+ b62:	6f 01       	movw	r12, r30
+ b64:	b7 01       	movw	r22, r14
+ b66:	90 e0       	ldi	r25, 0x00	; 0
+ b68:	0e 94 c7 06 	call	0xd8e	; 0xd8e <fputc>
+ b6c:	51 10       	cpse	r5, r1
+ b6e:	5a 94       	dec	r5
+ b70:	f1 e0       	ldi	r31, 0x01	; 1
+ b72:	8f 1a       	sub	r8, r31
+ b74:	91 08       	sbc	r9, r1
+ b76:	bf cf       	rjmp	.-130    	; 0xaf6 <vfprintf+0x148>
+ b78:	84 36       	cpi	r24, 0x64	; 100
+ b7a:	19 f0       	breq	.+6      	; 0xb82 <vfprintf+0x1d4>
+ b7c:	89 36       	cpi	r24, 0x69	; 105
+ b7e:	09 f0       	breq	.+2      	; 0xb82 <vfprintf+0x1d4>
+ b80:	77 c0       	rjmp	.+238    	; 0xc70 <vfprintf+0x2c2>
+ b82:	f8 01       	movw	r30, r16
+ b84:	37 fe       	sbrs	r3, 7
+ b86:	6b c0       	rjmp	.+214    	; 0xc5e <vfprintf+0x2b0>
+ b88:	60 81       	ld	r22, Z
+ b8a:	71 81       	ldd	r23, Z+1	; 0x01
+ b8c:	82 81       	ldd	r24, Z+2	; 0x02
+ b8e:	93 81       	ldd	r25, Z+3	; 0x03
+ b90:	0c 5f       	subi	r16, 0xFC	; 252
+ b92:	1f 4f       	sbci	r17, 0xFF	; 255
+ b94:	f3 2d       	mov	r31, r3
+ b96:	ff 76       	andi	r31, 0x6F	; 111
+ b98:	3f 2e       	mov	r3, r31
+ b9a:	97 ff       	sbrs	r25, 7
+ b9c:	09 c0       	rjmp	.+18     	; 0xbb0 <vfprintf+0x202>
+ b9e:	90 95       	com	r25
+ ba0:	80 95       	com	r24
+ ba2:	70 95       	com	r23
+ ba4:	61 95       	neg	r22
+ ba6:	7f 4f       	sbci	r23, 0xFF	; 255
+ ba8:	8f 4f       	sbci	r24, 0xFF	; 255
+ baa:	9f 4f       	sbci	r25, 0xFF	; 255
+ bac:	68 94       	set
+ bae:	37 f8       	bld	r3, 7
+ bb0:	2a e0       	ldi	r18, 0x0A	; 10
+ bb2:	30 e0       	ldi	r19, 0x00	; 0
+ bb4:	a5 01       	movw	r20, r10
+ bb6:	0e 94 f7 06 	call	0xdee	; 0xdee <__ultoa_invert>
+ bba:	c8 2e       	mov	r12, r24
+ bbc:	ca 18       	sub	r12, r10
+ bbe:	8c 2c       	mov	r8, r12
+ bc0:	43 2c       	mov	r4, r3
+ bc2:	36 fe       	sbrs	r3, 6
+ bc4:	0c c0       	rjmp	.+24     	; 0xbde <vfprintf+0x230>
+ bc6:	e8 94       	clt
+ bc8:	40 f8       	bld	r4, 0
+ bca:	c9 14       	cp	r12, r9
+ bcc:	40 f4       	brcc	.+16     	; 0xbde <vfprintf+0x230>
+ bce:	34 fe       	sbrs	r3, 4
+ bd0:	05 c0       	rjmp	.+10     	; 0xbdc <vfprintf+0x22e>
+ bd2:	32 fc       	sbrc	r3, 2
+ bd4:	03 c0       	rjmp	.+6      	; 0xbdc <vfprintf+0x22e>
+ bd6:	f3 2d       	mov	r31, r3
+ bd8:	fe 7e       	andi	r31, 0xEE	; 238
+ bda:	4f 2e       	mov	r4, r31
+ bdc:	89 2c       	mov	r8, r9
+ bde:	44 fe       	sbrs	r4, 4
+ be0:	95 c0       	rjmp	.+298    	; 0xd0c <vfprintf+0x35e>
+ be2:	fe 01       	movw	r30, r28
+ be4:	ec 0d       	add	r30, r12
+ be6:	f1 1d       	adc	r31, r1
+ be8:	80 81       	ld	r24, Z
+ bea:	80 33       	cpi	r24, 0x30	; 48
+ bec:	09 f0       	breq	.+2      	; 0xbf0 <vfprintf+0x242>
+ bee:	87 c0       	rjmp	.+270    	; 0xcfe <vfprintf+0x350>
+ bf0:	24 2d       	mov	r18, r4
+ bf2:	29 7e       	andi	r18, 0xE9	; 233
+ bf4:	42 2e       	mov	r4, r18
+ bf6:	84 2d       	mov	r24, r4
+ bf8:	88 70       	andi	r24, 0x08	; 8
+ bfa:	58 2e       	mov	r5, r24
+ bfc:	43 fc       	sbrc	r4, 3
+ bfe:	95 c0       	rjmp	.+298    	; 0xd2a <vfprintf+0x37c>
+ c00:	40 fe       	sbrs	r4, 0
+ c02:	8f c0       	rjmp	.+286    	; 0xd22 <vfprintf+0x374>
+ c04:	9c 2c       	mov	r9, r12
+ c06:	82 14       	cp	r8, r2
+ c08:	18 f4       	brcc	.+6      	; 0xc10 <vfprintf+0x262>
+ c0a:	2c 0c       	add	r2, r12
+ c0c:	92 2c       	mov	r9, r2
+ c0e:	98 18       	sub	r9, r8
+ c10:	44 fe       	sbrs	r4, 4
+ c12:	91 c0       	rjmp	.+290    	; 0xd36 <vfprintf+0x388>
+ c14:	b7 01       	movw	r22, r14
+ c16:	80 e3       	ldi	r24, 0x30	; 48
+ c18:	90 e0       	ldi	r25, 0x00	; 0
+ c1a:	0e 94 c7 06 	call	0xd8e	; 0xd8e <fputc>
+ c1e:	42 fe       	sbrs	r4, 2
+ c20:	09 c0       	rjmp	.+18     	; 0xc34 <vfprintf+0x286>
+ c22:	88 e7       	ldi	r24, 0x78	; 120
+ c24:	90 e0       	ldi	r25, 0x00	; 0
+ c26:	41 fe       	sbrs	r4, 1
+ c28:	02 c0       	rjmp	.+4      	; 0xc2e <vfprintf+0x280>
+ c2a:	88 e5       	ldi	r24, 0x58	; 88
+ c2c:	90 e0       	ldi	r25, 0x00	; 0
+ c2e:	b7 01       	movw	r22, r14
+ c30:	0e 94 c7 06 	call	0xd8e	; 0xd8e <fputc>
+ c34:	c9 14       	cp	r12, r9
+ c36:	08 f4       	brcc	.+2      	; 0xc3a <vfprintf+0x28c>
+ c38:	8a c0       	rjmp	.+276    	; 0xd4e <vfprintf+0x3a0>
+ c3a:	ca 94       	dec	r12
+ c3c:	d1 2c       	mov	r13, r1
+ c3e:	9f ef       	ldi	r25, 0xFF	; 255
+ c40:	c9 1a       	sub	r12, r25
+ c42:	d9 0a       	sbc	r13, r25
+ c44:	ca 0c       	add	r12, r10
+ c46:	db 1c       	adc	r13, r11
+ c48:	f6 01       	movw	r30, r12
+ c4a:	82 91       	ld	r24, -Z
+ c4c:	6f 01       	movw	r12, r30
+ c4e:	b7 01       	movw	r22, r14
+ c50:	90 e0       	ldi	r25, 0x00	; 0
+ c52:	0e 94 c7 06 	call	0xd8e	; 0xd8e <fputc>
+ c56:	ac 14       	cp	r10, r12
+ c58:	bd 04       	cpc	r11, r13
+ c5a:	b1 f7       	brne	.-20     	; 0xc48 <vfprintf+0x29a>
+ c5c:	4f cf       	rjmp	.-354    	; 0xafc <vfprintf+0x14e>
+ c5e:	60 81       	ld	r22, Z
+ c60:	71 81       	ldd	r23, Z+1	; 0x01
+ c62:	07 2e       	mov	r0, r23
+ c64:	00 0c       	add	r0, r0
+ c66:	88 0b       	sbc	r24, r24
+ c68:	99 0b       	sbc	r25, r25
+ c6a:	0e 5f       	subi	r16, 0xFE	; 254
+ c6c:	1f 4f       	sbci	r17, 0xFF	; 255
+ c6e:	92 cf       	rjmp	.-220    	; 0xb94 <vfprintf+0x1e6>
+ c70:	d3 2c       	mov	r13, r3
+ c72:	e8 94       	clt
+ c74:	d4 f8       	bld	r13, 4
+ c76:	2a e0       	ldi	r18, 0x0A	; 10
+ c78:	30 e0       	ldi	r19, 0x00	; 0
+ c7a:	85 37       	cpi	r24, 0x75	; 117
+ c7c:	39 f1       	breq	.+78     	; 0xccc <vfprintf+0x31e>
+ c7e:	23 2d       	mov	r18, r3
+ c80:	29 7f       	andi	r18, 0xF9	; 249
+ c82:	d2 2e       	mov	r13, r18
+ c84:	8f 36       	cpi	r24, 0x6F	; 111
+ c86:	01 f1       	breq	.+64     	; 0xcc8 <vfprintf+0x31a>
+ c88:	48 f4       	brcc	.+18     	; 0xc9c <vfprintf+0x2ee>
+ c8a:	88 35       	cpi	r24, 0x58	; 88
+ c8c:	a9 f0       	breq	.+42     	; 0xcb8 <vfprintf+0x30a>
+ c8e:	f7 01       	movw	r30, r14
+ c90:	86 81       	ldd	r24, Z+6	; 0x06
+ c92:	97 81       	ldd	r25, Z+7	; 0x07
+ c94:	2b 96       	adiw	r28, 0x0b	; 11
+ c96:	e2 e1       	ldi	r30, 0x12	; 18
+ c98:	0c 94 71 07 	jmp	0xee2	; 0xee2 <__epilogue_restores__>
+ c9c:	80 37       	cpi	r24, 0x70	; 112
+ c9e:	49 f0       	breq	.+18     	; 0xcb2 <vfprintf+0x304>
+ ca0:	88 37       	cpi	r24, 0x78	; 120
+ ca2:	a9 f7       	brne	.-22     	; 0xc8e <vfprintf+0x2e0>
+ ca4:	d4 fe       	sbrs	r13, 4
+ ca6:	02 c0       	rjmp	.+4      	; 0xcac <vfprintf+0x2fe>
+ ca8:	68 94       	set
+ caa:	d2 f8       	bld	r13, 2
+ cac:	20 e1       	ldi	r18, 0x10	; 16
+ cae:	30 e0       	ldi	r19, 0x00	; 0
+ cb0:	0d c0       	rjmp	.+26     	; 0xccc <vfprintf+0x31e>
+ cb2:	68 94       	set
+ cb4:	d4 f8       	bld	r13, 4
+ cb6:	f6 cf       	rjmp	.-20     	; 0xca4 <vfprintf+0x2f6>
+ cb8:	34 fe       	sbrs	r3, 4
+ cba:	03 c0       	rjmp	.+6      	; 0xcc2 <vfprintf+0x314>
+ cbc:	82 2f       	mov	r24, r18
+ cbe:	86 60       	ori	r24, 0x06	; 6
+ cc0:	d8 2e       	mov	r13, r24
+ cc2:	20 e1       	ldi	r18, 0x10	; 16
+ cc4:	32 e0       	ldi	r19, 0x02	; 2
+ cc6:	02 c0       	rjmp	.+4      	; 0xccc <vfprintf+0x31e>
+ cc8:	28 e0       	ldi	r18, 0x08	; 8
+ cca:	30 e0       	ldi	r19, 0x00	; 0
+ ccc:	f8 01       	movw	r30, r16
+ cce:	d7 fe       	sbrs	r13, 7
+ cd0:	0f c0       	rjmp	.+30     	; 0xcf0 <vfprintf+0x342>
+ cd2:	60 81       	ld	r22, Z
+ cd4:	71 81       	ldd	r23, Z+1	; 0x01
+ cd6:	82 81       	ldd	r24, Z+2	; 0x02
+ cd8:	93 81       	ldd	r25, Z+3	; 0x03
+ cda:	0c 5f       	subi	r16, 0xFC	; 252
+ cdc:	1f 4f       	sbci	r17, 0xFF	; 255
+ cde:	a5 01       	movw	r20, r10
+ ce0:	0e 94 f7 06 	call	0xdee	; 0xdee <__ultoa_invert>
+ ce4:	c8 2e       	mov	r12, r24
+ ce6:	ca 18       	sub	r12, r10
+ ce8:	3d 2c       	mov	r3, r13
+ cea:	e8 94       	clt
+ cec:	37 f8       	bld	r3, 7
+ cee:	67 cf       	rjmp	.-306    	; 0xbbe <vfprintf+0x210>
+ cf0:	60 81       	ld	r22, Z
+ cf2:	71 81       	ldd	r23, Z+1	; 0x01
+ cf4:	90 e0       	ldi	r25, 0x00	; 0
+ cf6:	80 e0       	ldi	r24, 0x00	; 0
+ cf8:	0e 5f       	subi	r16, 0xFE	; 254
+ cfa:	1f 4f       	sbci	r17, 0xFF	; 255
+ cfc:	f0 cf       	rjmp	.-32     	; 0xcde <vfprintf+0x330>
+ cfe:	42 fc       	sbrc	r4, 2
+ d00:	02 c0       	rjmp	.+4      	; 0xd06 <vfprintf+0x358>
+ d02:	83 94       	inc	r8
+ d04:	78 cf       	rjmp	.-272    	; 0xbf6 <vfprintf+0x248>
+ d06:	83 94       	inc	r8
+ d08:	83 94       	inc	r8
+ d0a:	75 cf       	rjmp	.-278    	; 0xbf6 <vfprintf+0x248>
+ d0c:	84 2d       	mov	r24, r4
+ d0e:	86 78       	andi	r24, 0x86	; 134
+ d10:	09 f4       	brne	.+2      	; 0xd14 <vfprintf+0x366>
+ d12:	71 cf       	rjmp	.-286    	; 0xbf6 <vfprintf+0x248>
+ d14:	f6 cf       	rjmp	.-20     	; 0xd02 <vfprintf+0x354>
+ d16:	b7 01       	movw	r22, r14
+ d18:	80 e2       	ldi	r24, 0x20	; 32
+ d1a:	90 e0       	ldi	r25, 0x00	; 0
+ d1c:	0e 94 c7 06 	call	0xd8e	; 0xd8e <fputc>
+ d20:	83 94       	inc	r8
+ d22:	82 14       	cp	r8, r2
+ d24:	c0 f3       	brcs	.-16     	; 0xd16 <vfprintf+0x368>
+ d26:	51 2c       	mov	r5, r1
+ d28:	73 cf       	rjmp	.-282    	; 0xc10 <vfprintf+0x262>
+ d2a:	52 2c       	mov	r5, r2
+ d2c:	58 18       	sub	r5, r8
+ d2e:	82 14       	cp	r8, r2
+ d30:	08 f4       	brcc	.+2      	; 0xd34 <vfprintf+0x386>
+ d32:	6e cf       	rjmp	.-292    	; 0xc10 <vfprintf+0x262>
+ d34:	f8 cf       	rjmp	.-16     	; 0xd26 <vfprintf+0x378>
+ d36:	84 2d       	mov	r24, r4
+ d38:	86 78       	andi	r24, 0x86	; 134
+ d3a:	09 f4       	brne	.+2      	; 0xd3e <vfprintf+0x390>
+ d3c:	7b cf       	rjmp	.-266    	; 0xc34 <vfprintf+0x286>
+ d3e:	8b e2       	ldi	r24, 0x2B	; 43
+ d40:	41 fe       	sbrs	r4, 1
+ d42:	80 e2       	ldi	r24, 0x20	; 32
+ d44:	47 fc       	sbrc	r4, 7
+ d46:	8d e2       	ldi	r24, 0x2D	; 45
+ d48:	b7 01       	movw	r22, r14
+ d4a:	90 e0       	ldi	r25, 0x00	; 0
+ d4c:	71 cf       	rjmp	.-286    	; 0xc30 <vfprintf+0x282>
+ d4e:	b7 01       	movw	r22, r14
+ d50:	80 e3       	ldi	r24, 0x30	; 48
+ d52:	90 e0       	ldi	r25, 0x00	; 0
+ d54:	0e 94 c7 06 	call	0xd8e	; 0xd8e <fputc>
+ d58:	9a 94       	dec	r9
+ d5a:	6c cf       	rjmp	.-296    	; 0xc34 <vfprintf+0x286>
+ d5c:	8f ef       	ldi	r24, 0xFF	; 255
+ d5e:	9f ef       	ldi	r25, 0xFF	; 255
+ d60:	99 cf       	rjmp	.-206    	; 0xc94 <vfprintf+0x2e6>
+
+00000d62 <strnlen_P>:
+strnlen_P():
+ d62:	fc 01       	movw	r30, r24
+ d64:	05 90       	lpm	r0, Z+
+ d66:	61 50       	subi	r22, 0x01	; 1
+ d68:	70 40       	sbci	r23, 0x00	; 0
+ d6a:	01 10       	cpse	r0, r1
+ d6c:	d8 f7       	brcc	.-10     	; 0xd64 <strnlen_P+0x2>
+ d6e:	80 95       	com	r24
+ d70:	90 95       	com	r25
+ d72:	8e 0f       	add	r24, r30
+ d74:	9f 1f       	adc	r25, r31
+ d76:	08 95       	ret
+
+00000d78 <strnlen>:
+strnlen():
+ d78:	fc 01       	movw	r30, r24
+ d7a:	61 50       	subi	r22, 0x01	; 1
+ d7c:	70 40       	sbci	r23, 0x00	; 0
+ d7e:	01 90       	ld	r0, Z+
+ d80:	01 10       	cpse	r0, r1
+ d82:	d8 f7       	brcc	.-10     	; 0xd7a <strnlen+0x2>
+ d84:	80 95       	com	r24
+ d86:	90 95       	com	r25
+ d88:	8e 0f       	add	r24, r30
+ d8a:	9f 1f       	adc	r25, r31
+ d8c:	08 95       	ret
+
+00000d8e <fputc>:
+fputc():
+ d8e:	0f 93       	push	r16
+ d90:	1f 93       	push	r17
+ d92:	cf 93       	push	r28
+ d94:	df 93       	push	r29
+ d96:	18 2f       	mov	r17, r24
+ d98:	09 2f       	mov	r16, r25
+ d9a:	eb 01       	movw	r28, r22
+ d9c:	8b 81       	ldd	r24, Y+3	; 0x03
+ d9e:	81 fd       	sbrc	r24, 1
+ da0:	09 c0       	rjmp	.+18     	; 0xdb4 <fputc+0x26>
+ da2:	1f ef       	ldi	r17, 0xFF	; 255
+ da4:	0f ef       	ldi	r16, 0xFF	; 255
+ da6:	81 2f       	mov	r24, r17
+ da8:	90 2f       	mov	r25, r16
+ daa:	df 91       	pop	r29
+ dac:	cf 91       	pop	r28
+ dae:	1f 91       	pop	r17
+ db0:	0f 91       	pop	r16
+ db2:	08 95       	ret
+ db4:	82 ff       	sbrs	r24, 2
+ db6:	14 c0       	rjmp	.+40     	; 0xde0 <fputc+0x52>
+ db8:	2e 81       	ldd	r18, Y+6	; 0x06
+ dba:	3f 81       	ldd	r19, Y+7	; 0x07
+ dbc:	8c 81       	ldd	r24, Y+4	; 0x04
+ dbe:	9d 81       	ldd	r25, Y+5	; 0x05
+ dc0:	28 17       	cp	r18, r24
+ dc2:	39 07       	cpc	r19, r25
+ dc4:	3c f4       	brge	.+14     	; 0xdd4 <fputc+0x46>
+ dc6:	e8 81       	ld	r30, Y
+ dc8:	f9 81       	ldd	r31, Y+1	; 0x01
+ dca:	cf 01       	movw	r24, r30
+ dcc:	01 96       	adiw	r24, 0x01	; 1
+ dce:	99 83       	std	Y+1, r25	; 0x01
+ dd0:	88 83       	st	Y, r24
+ dd2:	10 83       	st	Z, r17
+ dd4:	8e 81       	ldd	r24, Y+6	; 0x06
+ dd6:	9f 81       	ldd	r25, Y+7	; 0x07
+ dd8:	01 96       	adiw	r24, 0x01	; 1
+ dda:	9f 83       	std	Y+7, r25	; 0x07
+ ddc:	8e 83       	std	Y+6, r24	; 0x06
+ dde:	e3 cf       	rjmp	.-58     	; 0xda6 <fputc+0x18>
+ de0:	e8 85       	ldd	r30, Y+8	; 0x08
+ de2:	f9 85       	ldd	r31, Y+9	; 0x09
+ de4:	81 2f       	mov	r24, r17
+ de6:	09 95       	icall
+ de8:	89 2b       	or	r24, r25
+ dea:	a1 f3       	breq	.-24     	; 0xdd4 <fputc+0x46>
+ dec:	da cf       	rjmp	.-76     	; 0xda2 <fputc+0x14>
+
+00000dee <__ultoa_invert>:
+__ultoa_invert():
+ dee:	fa 01       	movw	r30, r20
+ df0:	aa 27       	eor	r26, r26
+ df2:	28 30       	cpi	r18, 0x08	; 8
+ df4:	51 f1       	breq	.+84     	; 0xe4a <__ultoa_invert+0x5c>
+ df6:	20 31       	cpi	r18, 0x10	; 16
+ df8:	81 f1       	breq	.+96     	; 0xe5a <__ultoa_invert+0x6c>
+ dfa:	e8 94       	clt
+ dfc:	6f 93       	push	r22
+ dfe:	6e 7f       	andi	r22, 0xFE	; 254
+ e00:	6e 5f       	subi	r22, 0xFE	; 254
+ e02:	7f 4f       	sbci	r23, 0xFF	; 255
+ e04:	8f 4f       	sbci	r24, 0xFF	; 255
+ e06:	9f 4f       	sbci	r25, 0xFF	; 255
+ e08:	af 4f       	sbci	r26, 0xFF	; 255
+ e0a:	b1 e0       	ldi	r27, 0x01	; 1
+ e0c:	3e d0       	rcall	.+124    	; 0xe8a <__ultoa_invert+0x9c>
+ e0e:	b4 e0       	ldi	r27, 0x04	; 4
+ e10:	3c d0       	rcall	.+120    	; 0xe8a <__ultoa_invert+0x9c>
+ e12:	67 0f       	add	r22, r23
+ e14:	78 1f       	adc	r23, r24
+ e16:	89 1f       	adc	r24, r25
+ e18:	9a 1f       	adc	r25, r26
+ e1a:	a1 1d       	adc	r26, r1
+ e1c:	68 0f       	add	r22, r24
+ e1e:	79 1f       	adc	r23, r25
+ e20:	8a 1f       	adc	r24, r26
+ e22:	91 1d       	adc	r25, r1
+ e24:	a1 1d       	adc	r26, r1
+ e26:	6a 0f       	add	r22, r26
+ e28:	71 1d       	adc	r23, r1
+ e2a:	81 1d       	adc	r24, r1
+ e2c:	91 1d       	adc	r25, r1
+ e2e:	a1 1d       	adc	r26, r1
+ e30:	20 d0       	rcall	.+64     	; 0xe72 <__ultoa_invert+0x84>
+ e32:	09 f4       	brne	.+2      	; 0xe36 <__ultoa_invert+0x48>
+ e34:	68 94       	set
+ e36:	3f 91       	pop	r19
+ e38:	2a e0       	ldi	r18, 0x0A	; 10
+ e3a:	26 9f       	mul	r18, r22
+ e3c:	11 24       	eor	r1, r1
+ e3e:	30 19       	sub	r19, r0
+ e40:	30 5d       	subi	r19, 0xD0	; 208
+ e42:	31 93       	st	Z+, r19
+ e44:	de f6       	brtc	.-74     	; 0xdfc <__ultoa_invert+0xe>
+ e46:	cf 01       	movw	r24, r30
+ e48:	08 95       	ret
+ e4a:	46 2f       	mov	r20, r22
+ e4c:	47 70       	andi	r20, 0x07	; 7
+ e4e:	40 5d       	subi	r20, 0xD0	; 208
+ e50:	41 93       	st	Z+, r20
+ e52:	b3 e0       	ldi	r27, 0x03	; 3
+ e54:	0f d0       	rcall	.+30     	; 0xe74 <__ultoa_invert+0x86>
+ e56:	c9 f7       	brne	.-14     	; 0xe4a <__ultoa_invert+0x5c>
+ e58:	f6 cf       	rjmp	.-20     	; 0xe46 <__ultoa_invert+0x58>
+ e5a:	46 2f       	mov	r20, r22
+ e5c:	4f 70       	andi	r20, 0x0F	; 15
+ e5e:	40 5d       	subi	r20, 0xD0	; 208
+ e60:	4a 33       	cpi	r20, 0x3A	; 58
+ e62:	18 f0       	brcs	.+6      	; 0xe6a <__ultoa_invert+0x7c>
+ e64:	49 5d       	subi	r20, 0xD9	; 217
+ e66:	31 fd       	sbrc	r19, 1
+ e68:	40 52       	subi	r20, 0x20	; 32
+ e6a:	41 93       	st	Z+, r20
+ e6c:	02 d0       	rcall	.+4      	; 0xe72 <__ultoa_invert+0x84>
+ e6e:	a9 f7       	brne	.-22     	; 0xe5a <__ultoa_invert+0x6c>
+ e70:	ea cf       	rjmp	.-44     	; 0xe46 <__ultoa_invert+0x58>
+ e72:	b4 e0       	ldi	r27, 0x04	; 4
+ e74:	a6 95       	lsr	r26
+ e76:	97 95       	ror	r25
+ e78:	87 95       	ror	r24
+ e7a:	77 95       	ror	r23
+ e7c:	67 95       	ror	r22
+ e7e:	ba 95       	dec	r27
+ e80:	c9 f7       	brne	.-14     	; 0xe74 <__ultoa_invert+0x86>
+ e82:	00 97       	sbiw	r24, 0x00	; 0
+ e84:	61 05       	cpc	r22, r1
+ e86:	71 05       	cpc	r23, r1
+ e88:	08 95       	ret
+ e8a:	9b 01       	movw	r18, r22
+ e8c:	ac 01       	movw	r20, r24
+ e8e:	0a 2e       	mov	r0, r26
+ e90:	06 94       	lsr	r0
+ e92:	57 95       	ror	r21
+ e94:	47 95       	ror	r20
+ e96:	37 95       	ror	r19
+ e98:	27 95       	ror	r18
+ e9a:	ba 95       	dec	r27
+ e9c:	c9 f7       	brne	.-14     	; 0xe90 <__ultoa_invert+0xa2>
+ e9e:	62 0f       	add	r22, r18
+ ea0:	73 1f       	adc	r23, r19
+ ea2:	84 1f       	adc	r24, r20
+ ea4:	95 1f       	adc	r25, r21
+ ea6:	a0 1d       	adc	r26, r0
+ ea8:	08 95       	ret
+
+00000eaa <__prologue_saves__>:
+__prologue_saves__():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2169
+ eaa:	2f 92       	push	r2
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2170
+ eac:	3f 92       	push	r3
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2171
+ eae:	4f 92       	push	r4
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2172
+ eb0:	5f 92       	push	r5
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2173
+ eb2:	6f 92       	push	r6
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2174
+ eb4:	7f 92       	push	r7
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2175
+ eb6:	8f 92       	push	r8
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2176
+ eb8:	9f 92       	push	r9
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2177
+ eba:	af 92       	push	r10
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2178
+ ebc:	bf 92       	push	r11
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2179
+ ebe:	cf 92       	push	r12
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2180
+ ec0:	df 92       	push	r13
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2181
+ ec2:	ef 92       	push	r14
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2182
+ ec4:	ff 92       	push	r15
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2183
+ ec6:	0f 93       	push	r16
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2184
+ ec8:	1f 93       	push	r17
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2185
+ eca:	cf 93       	push	r28
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2186
+ ecc:	df 93       	push	r29
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2200
+ ece:	cd b7       	in	r28, 0x3d	; 61
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2201
+ ed0:	de b7       	in	r29, 0x3e	; 62
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2202
+ ed2:	ca 1b       	sub	r28, r26
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2203
+ ed4:	db 0b       	sbc	r29, r27
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2204
+ ed6:	0f b6       	in	r0, 0x3f	; 63
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2205
+ ed8:	f8 94       	cli
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2206
+ eda:	de bf       	out	0x3e, r29	; 62
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2207
+ edc:	0f be       	out	0x3f, r0	; 63
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2208
+ ede:	cd bf       	out	0x3d, r28	; 61
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2211
+ ee0:	09 94       	ijmp
+
+00000ee2 <__epilogue_restores__>:
+__epilogue_restores__():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2222
+ ee2:	2a 88       	ldd	r2, Y+18	; 0x12
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2223
+ ee4:	39 88       	ldd	r3, Y+17	; 0x11
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2224
+ ee6:	48 88       	ldd	r4, Y+16	; 0x10
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2225
+ ee8:	5f 84       	ldd	r5, Y+15	; 0x0f
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2226
+ eea:	6e 84       	ldd	r6, Y+14	; 0x0e
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2227
+ eec:	7d 84       	ldd	r7, Y+13	; 0x0d
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2228
+ eee:	8c 84       	ldd	r8, Y+12	; 0x0c
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2229
+ ef0:	9b 84       	ldd	r9, Y+11	; 0x0b
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2230
+ ef2:	aa 84       	ldd	r10, Y+10	; 0x0a
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2231
+ ef4:	b9 84       	ldd	r11, Y+9	; 0x09
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2232
+ ef6:	c8 84       	ldd	r12, Y+8	; 0x08
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2233
+ ef8:	df 80       	ldd	r13, Y+7	; 0x07
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2234
+ efa:	ee 80       	ldd	r14, Y+6	; 0x06
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2235
+ efc:	fd 80       	ldd	r15, Y+5	; 0x05
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2236
+ efe:	0c 81       	ldd	r16, Y+4	; 0x04
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2237
+ f00:	1b 81       	ldd	r17, Y+3	; 0x03
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2238
+ f02:	aa 81       	ldd	r26, Y+2	; 0x02
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2252
+ f04:	b9 81       	ldd	r27, Y+1	; 0x01
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2253
+ f06:	ce 0f       	add	r28, r30
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2254
+ f08:	d1 1d       	adc	r29, r1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2255
+ f0a:	0f b6       	in	r0, 0x3f	; 63
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2256
+ f0c:	f8 94       	cli
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2257
+ f0e:	de bf       	out	0x3e, r29	; 62
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2258
+ f10:	0f be       	out	0x3f, r0	; 63
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2259
+ f12:	cd bf       	out	0x3d, r28	; 61
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2260
+ f14:	ed 01       	movw	r28, r26
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2263
+ f16:	08 95       	ret
+
+00000f18 <__tablejump2__>:
+__tablejump2__():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2296
+ f18:	ee 0f       	add	r30, r30
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2297
+ f1a:	ff 1f       	adc	r31, r31
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2328
+ f1c:	05 90       	lpm	r0, Z+
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2329
+ f1e:	f4 91       	lpm	r31, Z
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2330
+ f20:	e0 2d       	mov	r30, r0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2331
+ f22:	09 94       	ijmp
+
+00000f24 <_exit>:
+exit():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2278
+ f24:	f8 94       	cli
+
+00000f26 <__stop_program>:
+__stop_program():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2280
+ f26:	ff cf       	rjmp	.-2      	; 0xf26 <__stop_program>
